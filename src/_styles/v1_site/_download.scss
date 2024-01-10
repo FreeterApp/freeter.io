@@ -1,0 +1,139 @@
+body#download {
+  header {
+    border: none;
+    nav {
+      vertical-align: middle;
+      line-height: 42px;
+    }
+    &.header-contact {
+      display: none;
+    }
+  }
+
+  section {
+    .container {
+      @media (min-width: $screen-sm-min) {
+        padding: 30px 20px 70px;
+      }
+    }
+    h3 {
+      text-align: center;
+      margin-bottom: 25px;
+      &:not(:first-child) {
+        margin-top: 40px;
+      }
+    }
+  }
+  ul.download-list {
+    border-bottom: 1px solid $clr-grey-light;
+    color: $clr-grey-darker;
+    list-style: none;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0 0 50px;
+    font-size:0;
+    text-align: center;
+    li {
+      display: block;
+      @media (max-width: $screen-xs-max) {
+        &:not(:last-child) {
+          margin-bottom: 50px;
+        }
+      }
+      @media (min-width: $screen-sm-min) {
+        display: inline-block;
+        vertical-align: top;
+        width: 180px;
+        &:not(:last-child) {
+          margin-right: 50px;
+        }
+      }
+      @media (min-width: $screen-md-min) {
+        &:not(:last-child) {
+          margin-right: 140px;
+        }
+      }
+    }
+  }
+
+  .logo-area {
+    height:160px;
+    margin-bottom: 22px;
+    svg {
+      display:inline-block;
+      vertical-align: bottom;
+      path {
+        fill: $clr-grey-dark;
+      }
+    }
+    &.windows {
+      padding-top: (160px - 120px);
+      svg {
+        width: 120px;
+        height: 120px;
+      }
+    }
+    &.osx {
+      padding-top: (160px - 126px);
+      svg {
+        width: 106px;
+        height: 126px;
+      }
+    }
+    &.linux {
+      padding-top: (160px - 120px);
+      svg {
+        width: 102px;
+        height: 120px;
+      }
+    }
+  }
+  .os-title-area {
+    margin-bottom: 4px;
+    font-size:26px;
+    font-weight: 400;
+  }
+  .os-info-area {
+    margin-bottom: 22px;
+    font-size:14px;
+    font-weight: 300;
+    @media (min-width: $screen-sm-min) {
+      height: 40px;
+    }
+  }
+
+  .download-area {
+    .btn {
+      display: block;
+      padding: 12px 0;
+      svg {
+        display: inline-block;
+        vertical-align: middle;
+        width: 24px;
+        height: 24px;
+        margin-right: 12px;
+        path {
+          fill: $clr-white;
+        }
+      }
+      span {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: 24px;
+        font-size: 20px;
+        margin-right: 7px;
+      }
+      &.disabled {
+        color: $clr-white;
+        background: $clr-less-white;
+      }
+    }
+
+  }
+  .os-info-more-area {
+    font-style: italic;
+    margin-top: 22px;
+    font-size:14px;
+    font-weight: 400;
+  }
+}

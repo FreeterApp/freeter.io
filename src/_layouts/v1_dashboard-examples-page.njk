@@ -1,0 +1,47 @@
+---
+layout: v1_base.njk
+activeArea: dashboard-examples
+ogType: object
+twitterCard: summary_large_image
+---
+<section class="dashboard-examples-page">
+  <div class="container">
+    <ul class="table-of-contents">
+      <li>
+        <div class="title">Dashboard Examples</div>
+        <ul>
+          {% for item in toc %}
+            <li{% if item.url == page.url %} class="current"{% endif %}>
+              <a href="{{ item.url|e }}">{{ item.title }}</a>
+            </li>
+          {% endfor %}
+        </ul>
+      </li>
+    </ul>
+
+    <div class="article-area">
+      <ul class="breadcrumbs">
+        <li>
+          <a href="/dashboard-examples">Dashboard Examples</a>
+        </li>
+      {% for item in breadcrumbs %}
+        {% if loop.last %}
+        <li>
+          {{ item.title }}
+        </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+      <article>
+        <h1>{{ curItem.title }}</h1>
+        <div class="screen">
+          <a href="{{ curItem.imgScreenUrl }}" target="_blank">
+            <img src="{{ curItem.imgScreenUrl }}" />
+          </a>
+          <span>(Click the image to enlarge.)</span>
+        </div>
+        {{ content | safe}}
+      </article>
+    </div>
+  </div>
+</section>

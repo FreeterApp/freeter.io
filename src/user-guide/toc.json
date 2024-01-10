@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Getting Started",
+    "item": "getting-started",
+    "items": [
+      {
+        "title": "What is it for?",
+        "item": "what-is-it-for",
+        "metaDescr": "Learn what you can do with Freeter."
+      },
+      {
+        "title": "Installing Freeter",
+        "item": "installing-freeter",
+        "metaDescr": "How to install Freeter."
+      },
+      {
+        "title": "Freeter Basics",
+        "item": "freeter-basics",
+        "metaDescr": "Learn Freeter Basics."
+      },
+      {
+        "title": "Quick Start",
+        "item": "quick-start",
+        "metaDescr": "Quick Start with Freeter."
+      }
+    ]
+  },
+  {
+    "title": "Using Freeter",
+    "item": "using-freeter",
+    "items": [
+      {
+        "title": "Projects",
+        "item": "projects",
+        "metaDescr": "Learn how to work with projects in Freeter."
+      },
+      {
+        "title": "Dashboard Tabs",
+        "item": "dashboard-tabs",
+        "metaDescr": "Learn how to work with dashboard tabs in Freeter."
+      },
+      {
+        "title": "Dashboard",
+        "item": "dashboard",
+        "metaDescr": "Learn how to work with dashboards and widgets in Freeter."
+      },
+      {
+        "title": "Timers",
+        "item": "timers",
+        "metaDescr": "Learn how to setup and use timers in Freeter."
+      },
+      {
+        "title": "Toolkit",
+        "item": "toolkit",
+        "metaDescr": "Learn how to setup and use tools in Freeter."
+      },
+      {
+        "title": "Commands",
+        "item": "commands",
+        "metaDescr": "Learn how to setup and use commands in Freeter."
+      },
+      {
+        "title": "Webpages",
+        "item": "webpages",
+        "metaDescr": "Learn how to setup and use webpages in Freeter."
+      },
+      {
+        "title": "Searches",
+        "item": "searches",
+        "metaDescr": "Learn how to setup and use searches in Freeter."
+      },
+      {
+        "title": "Accessing Freeter",
+        "item": "accessing-freeter",
+        "metaDescr": "Learn how to easily access Freeter."
+      },
+      {
+        "title": "Back up & Sync Data",
+        "item": "back-up-sync-data",
+        "metaDescr": "Learn how to setup the data backing up & syncing."
+      }
+    ]
+  },
+  {
+    "title": "Widgets",
+    "item": "widgets",
+    "items": [
+      {
+        "title": "Commander",
+        "item": "commander",
+        "metaDescr": "Get more info about Commander widget."
+      },
+      {
+        "title": "File Explorer",
+        "item": "file-explorer",
+        "metaDescr": "Get more info about File Explorer widget."
+      },
+      {
+        "title": "File Opener",
+        "item": "file-opener",
+        "metaDescr": "Get more info about File Opener widget."
+      },
+      {
+        "title": "Image",
+        "item": "image",
+        "metaDescr": "Get more info about Image widget."
+      },
+      {
+        "title": "Link Opener",
+        "item": "link-opener",
+        "metaDescr": "Get more info about Link Opener widget."
+      },
+      {
+        "title": "Text",
+        "item": "text",
+        "metaDescr": "Get more info about Text widget."
+      },
+      {
+        "title": "To-Do List",
+        "item": "to-do-list",
+        "metaDescr": "Get more info about To Do List widget."
+      },
+      {
+        "title": "Webpage",
+        "item": "webpage",
+        "metaDescr": "Get more info about Webpage widget."
+      }
+    ]
+  }
+]

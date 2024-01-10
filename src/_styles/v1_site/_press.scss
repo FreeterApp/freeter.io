@@ -1,0 +1,85 @@
+body#press {
+  table {
+    text-align: left;
+    width: 100%;
+  }
+  td {
+    vertical-align: top;
+    padding-bottom: 50px;
+    padding-right: 24px;
+    &:first-child {
+      width: 90px;
+    }
+    &:last-child {
+      padding-right: 0;
+      text-align: right;
+    }
+  }
+
+  table {
+    .logo {
+      width: 64px;
+      height: 64px;
+      background-size: 64px 64px;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+    .media > a {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 500;
+      color: $clr-grey-darker;
+      border-bottom: 2px solid $clr-grey-darker;
+    }
+    .title > a {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 300;
+      color: $clr-grey-darker;
+      border-bottom: 1px solid $clr-grey-darker;
+    }
+    .date > a {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 300;
+      color: $clr-grey-darker;
+    }
+    .author, .author > a {
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: 300;
+      color: $clr-grey-darker;
+    }
+    .title, .author {
+      margin-top: 4px;
+    }
+  }
+
+  @media (max-width: $screen-xs-max) {
+    table, tbody, tr, td {
+      display: block;
+    }
+    tr {
+      padding-bottom: 50px;
+    }
+    td {
+      padding: 0;
+      text-align: center;
+      &:first-child {
+        width: auto;
+        padding-bottom: 6px;
+      }
+      &:last-child {
+        text-align: center;
+      }
+    }
+    table {
+      .logo {
+        margin: auto;
+      }
+      .date > a {
+        font-size: 16px;
+      }
+    }
+  }
+}

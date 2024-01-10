@@ -1,0 +1,22 @@
+const itemsTreeToBreadcrumbs = require('../_utils/breadcrumbs').itemsTreeToBreadcrumbs;
+const calcUrlsInItemsTree = require('../_utils/itemsTree').calcUrlsInItemsTree;
+const getItemByUrl = require('../_utils/itemsTree').getItemByUrl;
+
+const pathRoot = '/user-guide';
+
+const toc = calcUrlsInItemsTree(require('./toc.json'), pathRoot);
+
+module.exports = {
+  layout: 'v1_guide-page.njk',
+  toc,
+  eleventyComputed: {
+    curItem: data => getItemByUrl(toc, data.page.url),
+    breadcrumbs: data => itemsTreeToBreadcrumbs(toc, data.page.url),
+    pageTitle: data => {
+      return data.curItem?.title || data.pageTitle;
+    },
+    pageDescription: data => {
+      return data.curItem?.metaDescr || data.pageDescription;
+    }
+  }
+}

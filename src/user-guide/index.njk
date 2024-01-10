@@ -1,0 +1,29 @@
+---
+layout: v1_base.njk
+activeArea: user-guide
+pageTitle: User Guide
+pageDescription: Learn how to use Freeter.
+---
+{% macro renderItems(items) %}
+{% for item in items %}
+  <li>
+    {% if item.items %}
+      <div class="title">{{ item.title }}</div>
+      <ul>
+        {{ renderItems(item.items) }}
+      </ul>
+    {% else %}
+      <a href="{{ item.url|e }}">{{ item.title }}</a>
+    {% endif %}
+  </li>
+{% endfor %}
+{% endmacro %}
+
+<section class="guide-index">
+  <div class="container">
+    <h1>Freeter User Guide</h1>
+    <ul class="table-of-contents">
+      {{ renderItems(toc) }}
+    </ul>
+  </div>
+</section>

@@ -1,0 +1,33 @@
+$btn-default-color: $clr-white;
+$btn-default-bg: $clr-grey;
+$btn-default-border: $clr-grey;
+
+$btn-primary-color: $clr-white;
+$btn-primary-bg: $clr-green;
+$btn-primary-border: $clr-green;
+
+
+// $border-radius-base: 0;
+// $border-radius-large: 0;
+// $border-radius-small: 0;
+
+$text-color: $clr-grey-darker;
+
+$link-color: $clr-green;
+
+$font-family-base: 'Roboto', sans-serif;
+
+$font-size-base:18px;
+$font-size-large:20px;
+$font-size-h1:32px;
+$font-size-h2:22px;
+
+$btn-font-weight: 400;
+$headings-font-weight: 500;
+$headings-line-height: 1.4;
+
+$input-color-placeholder: $clr-grey-light;
+$input-border: $clr-grey-light;
+
+$grid-gutter-width: 30px;
+$container-large-desktop: (940px + $grid-gutter-width);

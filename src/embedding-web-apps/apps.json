@@ -1,0 +1,490 @@
+[
+  {
+    "title": "Analytics",
+    "item": "analytics",
+    "items": [
+      {
+        "title": "Google Analytics",
+        "metaDescr": "Find out how to access Google Analytics reports right from your Freeter dashboard.",
+        "item": "google-analytics",
+        "logo": "google-analytics.png",
+        "descr": "Easily access your most used reports in Google Analytics by embedding it on Freeter dashboard.",
+        "homeUrl": "https://analytics.google.com/"
+      },
+      {
+        "title": "Mixpanel",
+        "metaDescr": "Find out how to access Mixpanel reports right from your Freeter dashboard.",
+        "item": "mixpanel",
+        "logo": "mixpanel.png",
+        "descr": "Easily access your most used reports in Mixpanel by embedding it on Freeter dashboard.",
+        "homeUrl": "https://mixpanel.com/"
+      }
+    ]
+  },
+  {
+    "title": "Blogging",
+    "item": "blogging",
+    "items": [
+      {
+        "title": "Ghost",
+        "metaDescr": "Find out how to access your Ghost Dashboard from Freeter dashboard.",
+        "item": "ghost",
+        "logo": "ghost.png",
+        "descr": "Easily access your Ghost Dashboard by embedding it on Freeter dashboard.",
+        "homeUrl": ""
+      },
+      {
+        "title": "Medium",
+        "metaDescr": "Find out how to write and manage your stories on Medium right from Freeter dashboard.",
+        "item": "medium",
+        "logo": "medium.png",
+        "descr": "Easily write and manage your stories on Medium by embedding it on Freeter dashboard.",
+        "homeUrl": "https://medium.com/"
+      },
+      {
+        "title": "WordPress",
+        "metaDescr": "Find out how to access your WordPress Dashboard from Freeter dashboard.",
+        "item": "wordpress",
+        "logo": "wordpress.png",
+        "descr": "Easily access your WordPress Dashboard by embedding it on Freeter dashboard.",
+        "homeUrl": ""
+      }
+    ]
+  },
+  {
+    "title": "Calendar",
+    "item": "calendar",
+    "items": [
+      {
+        "title": "Google Calendar",
+        "metaDescr": "Find out how to access your Google Calendar right from your Freeter dashboard.",
+        "item": "google-calendar",
+        "logo": "google-calendar.png",
+        "descr": "Easily access your Google Calendar by embedding it on Freeter dashboard.",
+        "homeUrl": "https://www.google.com/calendar/"
+      }
+    ]
+  },
+  {
+    "title": "Chat",
+    "item": "chat",
+    "items": [
+      {
+        "title": "HipChat",
+        "metaDescr": "Find out how to access a HipChat room right from your Freeter dashboard.",
+        "item": "hipchat",
+        "logo": "hipchat.png",
+        "descr": "Easily access a HipChat room by embedding it on your Freeter dashboard.",
+        "homeUrl": "https://hipchat.com/"
+      },
+      {
+        "title": "Slack",
+        "metaDescr": "Find out how to access a Slack channel right from your Freeter dashboard.",
+        "item": "slack",
+        "logo": "slack.png",
+        "descr": "Easily access a Slack channel by embedding it on your Freeter dashboard.",
+        "homeUrl": "https://slack.com/"
+      }
+    ]
+  },
+  {
+    "title": "Cryptocurrency",
+    "item": "cryptocurrency",
+    "items": [
+      {
+        "title": "CryptoCompare",
+        "metaDescr": "Find out how to analyze a cryptocurrency with CryptoCompare from your Freeter dashboard.",
+        "item": "cryptocompare",
+        "logo": "cryptocompare.png",
+        "descr": "Quickly analyze a cryptocurrency by embedding CryptoCompare on your Freeter dashboard.",
+        "homeUrl": "https://www.cryptocompare.com/"
+      },
+      {
+        "title": "Poloniex",
+        "metaDescr": "Find out how to buy and sell a cryptocurrency with Poloniex from your Freeter dashboard.",
+        "item": "poloniex",
+        "logo": "poloniex.png",
+        "descr": "Quickly buy and sell a cryptocurrency, and check your balances by embedding Poloniex on Freeter dashboard.",
+        "homeUrl": "https://poloniex.com"
+      }
+    ]
+  },
+  {
+    "title": "Documents",
+    "item": "documents",
+    "items": [
+      {
+        "title": "DocHub",
+        "metaDescr": "Find out how to import, view and edit documents in DocHub right from your Freeter dashboard.",
+        "item": "dochub",
+        "logo": "dochub.png",
+        "descr": "Quickly import PDF documents and simplify access to most used ones by embedding DocHub on your Freeter dashboard.",
+        "homeUrl": "https://dochub.com/"
+      },
+      {
+        "title": "Google Docs",
+        "metaDescr": "Find out how to view/edit documents in Google Docs right from your Freeter dashboard.",
+        "item": "google-docs",
+        "logo": "google-docs.png",
+        "descr": "Quickly start a new document and simplify access to most used documents by embedding Google Docs on your Freeter dashboard.",
+        "homeUrl": "https://docs.google.com/document/"
+      },
+      {
+        "title": "Lumin",
+        "metaDescr": "Find out how to import, view and edit PDF documents in Lumin right from your Freeter dashboard.",
+        "item": "lumin",
+        "logo": "lumin.png",
+        "descr": "Quickly import PDF documents and simplify access to most used ones by embedding Lumin on your Freeter dashboard.",
+        "homeUrl": "https://www.luminpdf.com/"
+      },
+      {
+        "title": "Word",
+        "metaDescr": "Find out how to view/edit documents in Word right from your Freeter dashboard.",
+        "item": "word",
+        "logo": "word.png",
+        "descr": "Quickly create new documents and simplify access to most used ones by embedding Word on your Freeter dashboard.",
+        "homeUrl": "https://office.live.com/start/Word.aspx"
+      }
+    ]
+  },
+  {
+    "title": "Email Newsletter",
+    "item": "email-newsletter",
+    "items": [
+      {
+        "title": "Mad Mimi",
+        "metaDescr": "Find out how to access your Mad Mimi dashboard, statistics and audience right from Freeter dashboard.",
+        "item": "mad-mimi",
+        "logo": "mad-mimi.png",
+        "descr": "Easily access your Mad Mimi dashboard, statistics and audience by embedding Mad Mimi on Freeter dashboard.",
+        "homeUrl": "https://madmimi.com/"
+      },
+      {
+        "title": "MailChimp",
+        "metaDescr": "Find out how to access your MailChimp dashboard, campaigns, lists and reports right from Freeter dashboard.",
+        "item": "mailchimp",
+        "logo": "mailchimp.png",
+        "descr": "Easily access your MailChimp dashboard, campaigns, lists and reports by embedding MailChimp on Freeter dashboard.",
+        "homeUrl": "https://mailchimp.com/"
+      },
+      {
+        "title": "SendInBlue",
+        "metaDescr": "Find out how to access your SendInBlue dashboard, statistics, campaigns and lists right from Freeter dashboard.",
+        "item": "sendinblue",
+        "logo": "sendinblue.png",
+        "descr": "Easily access your SendInBlue dashboard, statistics, campaigns and lists by embedding SendInBlue on Freeter dashboard.",
+        "homeUrl": "https://www.sendinblue.com/"
+      }
+    ]
+  },
+  {
+    "title": "Files",
+    "item": "files",
+    "items": [
+      {
+        "title": "Dropbox",
+        "metaDescr": "Find out how to access your Dropbox folder right from Freeter dashboard.",
+        "item": "dropbox",
+        "logo": "dropbox.png",
+        "descr": "Easily access a Dropbox folder by embedding it on your Freeter dashboard.",
+        "homeUrl": "https://www.dropbox.com/"
+      },
+      {
+        "title": "Google Drive",
+        "metaDescr": "Find out how to access your Google Drive folder right from Freeter dashboard.",
+        "item": "google-drive",
+        "logo": "google-drive.png",
+        "descr": "Easily access a Google Drive folder by embedding it on your Freeter dashboard.",
+        "homeUrl": "https://drive.google.com/"
+      },
+      {
+        "title": "OneDrive",
+        "metaDescr": "Find out how to access your OneDrive folder right from Freeter dashboard.",
+        "item": "onedrive",
+        "logo": "onedrive.png",
+        "descr": "Easily access your OneDrive folder by embedding it on Freeter dashboard.",
+        "homeUrl": "https://onedrive.live.com/"
+      }
+    ]
+  },
+  {
+    "title": "Forms",
+    "item": "forms",
+    "items": [
+      {
+        "title": "Google Forms",
+        "metaDescr": "Find out how to create forms and view responses in Google Forms right from your Freeter dashboard.",
+        "item": "google-forms",
+        "logo": "google-forms.png",
+        "descr": "Quickly create new forms and view responses by embedding Google Forms on your Freeter dashboard.",
+        "homeUrl": "https://docs.google.com/forms/"
+      },
+      {
+        "title": "JotForm",
+        "metaDescr": "Find out how to create forms and view form submissions in JotForm from your Freeter dashboard.",
+        "item": "jotform",
+        "logo": "jotform.png",
+        "descr": "Quickly create new forms and view form submissions by embedding JotForm on your Freeter dashboard.",
+        "homeUrl": "https://www.jotform.com/"
+      },
+      {
+        "title": "Typeform",
+        "metaDescr": "Find out how to create forms and view results in Typeform right from your Freeter dashboard.",
+        "item": "typeform",
+        "logo": "typeform.png",
+        "descr": "Quickly create new forms and view results by embedding Typeform on your Freeter dashboard.",
+        "homeUrl": "https://www.typeform.com/"
+      }
+    ]
+  },
+  {
+    "title": "Freelancing",
+    "item": "freelancing",
+    "items": [
+      {
+        "title": "Fiverr",
+        "metaDescr": "Find out how to manage your sales and view gig stats on Fiverr right from your Freeter dashboard.",
+        "item": "fiverr",
+        "logo": "fiverr.png",
+        "descr": "Easily access your sales and view gig stats on Fiverr by embedding it on your Freeter dashboard.",
+        "homeUrl": "https://www.fiverr.com/"
+      },
+      {
+        "title": "Freelancer",
+        "metaDescr": "Find out how to search jobs and view reports on Freelancer right from your Freeter dashboard.",
+        "item": "freelancer",
+        "logo": "freelancer.png",
+        "descr": "Quickly search jobs and view reports on Freelancer by embedding it on your Freeter dashboard.",
+        "homeUrl": "https://www.freelancer.com/"
+      },
+      {
+        "title": "Upwork",
+        "metaDescr": "Find out how to search jobs and view reports on Upwork right from your Freeter dashboard.",
+        "item": "upwork",
+        "logo": "upwork.png",
+        "descr": "Quickly search jobs and view reports on Upwork by embedding it on your Freeter dashboard.",
+        "homeUrl": "https://www.upwork.com/"
+      }
+    ]
+  },
+  {
+    "title": "Invoices",
+    "item": "invoices",
+    "items": [
+      {
+        "title": "Bonsai",
+        "metaDescr": "Find out how to create freelance contracts and invoices with Bonsai from your Freeter dashboard.",
+        "item": "bonsai",
+        "logo": "bonsai.png",
+        "descr": "Quickly create and manage freelance contracts and invoices by embedding Bonsai on your Freeter dashboard.",
+        "homeUrl": "https://www.hellobonsai.com/freelancers"
+      },
+      {
+        "title": "Due",
+        "metaDescr": "Find out how to create invoices, get reports, manage clients, projects and payments on Due from your Freeter dashboard.",
+        "item": "due",
+        "logo": "due.png",
+        "descr": "Quickly create invoices, get reports, manage clients, projects and payments on Due from your Freeter dashboard.",
+        "homeUrl": "https://due.com/"
+      },
+      {
+        "title": "Hiveage",
+        "metaDescr": "Find out how to create invoices, bills, estimates with Hiveage from your Freeter dashboard.",
+        "item": "hiveage",
+        "logo": "hiveage.png",
+        "descr": "Quickly create and manage invoices and bills by embedding Hiveage on your Freeter dashboard.",
+        "homeUrl": "https://www.hiveage.com/"
+      }
+    ]
+  },
+  {
+    "title": "Notes",
+    "item": "notes",
+    "items": [
+      {
+        "title": "Evernote",
+        "metaDescr": "Find out how to access your Evernote notebook from Freeter dashboard.",
+        "item": "evernote",
+        "logo": "evernote.png",
+        "descr": "Easily access your notes on an Evernote notebook by embedding it on Freeter dashboard.",
+        "homeUrl": "https://www.evernote.com/"
+      },
+      {
+        "title": "OneNote",
+        "metaDescr": "Find out how to access your OneNote notebook from Freeter dashboard.",
+        "item": "onenote",
+        "logo": "onenote.png",
+        "descr": "Easily access your notes on an OneNote notebook by embedding it on Freeter dashboard.",
+        "homeUrl": "https://www.onenote.com/"
+      },
+      {
+        "title": "Workflowy",
+        "metaDescr": "Find out how to access your Workflowy notes from Freeter dashboard.",
+        "item": "workflowy",
+        "logo": "workflowy.png",
+        "descr": "Quickly access your Workflowy page by embedding it on Freeter dashboard.",
+        "homeUrl": "https://workflowy.com/"
+      }
+    ]
+  },
+  {
+    "title": "Payment Processing",
+    "item": "payment-processing",
+    "items": [
+      {
+        "title": "Chargebee",
+        "metaDescr": "Find out how to access your Chargebee dashboard, subscriptions and reports from Freeter dashboard.",
+        "item": "chargebee",
+        "logo": "chargebee.png",
+        "descr": "Easily access your Chargebee dashboard, subscriptions and reports by embedding Chargebee on Freeter dashboard.",
+        "homeUrl": "https://www.chargebee.com/"
+      },
+      {
+        "title": "Chargify",
+        "metaDescr": "Find out how to access your Chargify dashboard, reports, subscriptions, transactions and customers from Freeter dashboard.",
+        "item": "chargify",
+        "logo": "chargify.png",
+        "descr": "Easily access your Chargify dashboard, reports, subscriptions, transactions and customers by embedding Chargify on Freeter dashboard.",
+        "homeUrl": "https://www.chargify.com/"
+      },
+      {
+        "title": "CheddarGetter",
+        "metaDescr": "Find out how to access your CheddarGetter dashboard, customers and activity from Freeter dashboard.",
+        "item": "cheddargetter",
+        "logo": "cheddargetter.png",
+        "descr": "Easily access your CheddarGetter dashboard, customers and activity by embedding CheddarGetter on Freeter dashboard.",
+        "homeUrl": "https://cheddargetter.com/"
+      },
+      {
+        "title": "Paymill",
+        "metaDescr": "Find out how to access your Paymill dashboard, invoices, transactions, clients and subscriptions from Freeter dashboard.",
+        "item": "paymill",
+        "logo": "paymill.png",
+        "descr": "Easily access your Paymill dashboard, invoices, transactions, clients and subscriptions by embedding Paymill on Freeter dashboard.",
+        "homeUrl": "https://www.paymill.com/"
+      },
+      {
+        "title": "PayPal",
+        "metaDescr": "Find out how to access your PayPal wallet right from Freeter dashboard.",
+        "item": "paypal",
+        "logo": "paypal.png",
+        "descr": "Easily access your PayPal wallet by embedding it on Freeter dashboard.",
+        "homeUrl": "https://www.paypal.com/"
+      },
+      {
+        "title": "Stripe",
+        "metaDescr": "Find out how to access your Stripe dashboard right from Freeter dashboard.",
+        "item": "stripe",
+        "logo": "stripe.png",
+        "descr": "Easily access your Stripe dashboard by embedding it on Freeter dashboard.",
+        "homeUrl": "https://stripe.com/"
+      }
+    ]
+  },
+  {
+    "title": "Project Management",
+    "item": "project-management",
+    "items": [
+      {
+        "title": "Asana",
+        "metaDescr": "Find out how to access your Asana dashboard, task list, team conversations and calendar right from Freeter dashboard.",
+        "item": "asana",
+        "logo": "asana.png",
+        "descr": "Easily access your Asana dashboard, task list, team conversations and calendar by embedding Asana on Freeter dashboard.",
+        "homeUrl": "https://asana.com/"
+      },
+      {
+        "title": "Basecamp",
+        "metaDescr": "Find out how to access your Basecamp's Campfire, Message Board, To-dos, Schedule, Check-ins, Docs & Files from Freeter dashboard.",
+        "item": "basecamp",
+        "logo": "basecamp.png",
+        "descr": "Easily access your Basecamp's Campfire, Message Board, To-dos, Schedule, Check-ins, Docs & Files by embedding Basecamp on Freeter dashboard.",
+        "homeUrl": "https://basecamp.com/"
+      },
+      {
+        "title": "BeeCanvas",
+        "metaDescr": "Find out how to access your BeeCanvas projects from Freeter dashboard.",
+        "item": "beecanvas",
+        "logo": "beecanvas.png",
+        "descr": "Easily access your BeeCanvas projects by embedding them on Freeter dashboard.",
+        "homeUrl": "https://beecanvas.com/"
+      },
+      {
+        "title": "Jira",
+        "metaDescr": "Find out how to access your Jira boards, releases, reports and issues from Freeter dashboard.",
+        "item": "jira",
+        "logo": "jira.png",
+        "descr": "Easily access your Jira boards, releases, reports and issues by embedding Jira on Freeter dashboard.",
+        "homeUrl": "https://www.atlassian.com/software/jira/"
+      },
+      {
+        "title": "Paymo",
+        "metaDescr": "Find out how to access your Paymo's dashboard, clients, project, invoices, time reports, tasks and schedule right from Freeter dashboard.",
+        "item": "paymo",
+        "logo": "paymo.png",
+        "descr": "Easily access your Paymo's dashboard, clients, project, invoices, time reports, tasks and schedule by embedding Paymo on Freeter dashboard.",
+        "homeUrl": "https://www.paymoapp.com/"
+      },
+      {
+        "title": "Trello",
+        "metaDescr": "Find out how to access your Trello board and tasks from Freeter dashboard.",
+        "item": "trello",
+        "logo": "trello.png",
+        "descr": "Easily access tasks posted on a Trello board by embedding it on your Freeter dashboard.",
+        "homeUrl": "https://trello.com/"
+      }
+    ]
+  },
+  {
+    "title": "Social Media",
+    "item": "social-media",
+    "items": [
+      {
+        "title": "Buffer",
+        "metaDescr": "Find out how to access your Buffer Dashboard from Freeter dashboard.",
+        "item": "buffer",
+        "logo": "buffer.png",
+        "descr": "Easily access your Buffer Dashboard by embedding it on Freeter dashboard.",
+        "homeUrl": "https://buffer.com/"
+      },
+      {
+        "title": "Hootsuite",
+        "metaDescr": "Find out how to access your Hootsuite Dashboard from Freeter dashboard.",
+        "item": "hootsuite",
+        "logo": "hootsuite.png",
+        "descr": "Easily access your Hootsuite Dashboard by embedding it on Freeter dashboard.",
+        "homeUrl": "https://hootsuite.com/"
+      },
+      {
+        "title": "TweetDeck",
+        "metaDescr": "Find out how to access your TweetDeck Dashboard from Freeter dashboard.",
+        "item": "tweetdeck",
+        "logo": "tweetdeck.png",
+        "descr": "Easily access your TweetDeck Dashboard by embedding it on Freeter dashboard.",
+        "homeUrl": "https://tweetdeck.twitter.com/"
+      }
+    ]
+  },
+  {
+    "title": "Spreadsheets",
+    "item": "spreadsheets",
+    "items": [
+      {
+        "title": "Excel",
+        "metaDescr": "Find out how to view/edit spreadsheets in Excel right from your Freeter dashboard.",
+        "item": "excel",
+        "logo": "excel.png",
+        "descr": "Quickly start a new spreadsheet and simplify access to your most used spreadsheets by embedding Excel on Freeter dashboard.",
+        "homeUrl": "https://office.live.com/start/Excel.aspx"
+      },
+      {
+        "title": "Google Sheets",
+        "metaDescr": "Find out how to view/edit spreadsheets in Google Sheets right from your Freeter dashboard.",
+        "item": "google-sheets",
+        "logo": "google-sheets.png",
+        "descr": "Quickly start a new spreadsheet and simplify access to your most used spreadsheets by embedding Google Sheets on Freeter dashboard.",
+        "homeUrl": "https://docs.google.com/spreadsheets/"
+      }
+    ]
+  }
+]

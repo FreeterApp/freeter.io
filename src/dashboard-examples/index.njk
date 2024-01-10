@@ -1,0 +1,29 @@
+---
+layout: v1_base.njk
+activeArea: dashboard-examples
+pageTitle: Dashboard Examples
+pageDescription: Get ideas of how you can setup dashboards to improve your workflow.
+---
+<section class="dashboard-examples-index">
+  <div class="container">
+    <h1>
+      Dashboard Examples
+    </h1>
+    <h2>
+      Get some inspiration on how you can setup dashboards that will improve your workflow.
+    </h2>
+
+    <ul class="dashboard-examples--items">
+    {% for item in toc %}
+      <li>
+        <a href="{{ item.url|e }}">
+          <img src="{{ item.imgPreviewUrl|e }}" />
+          <span class="title">{{ item.title }}</span>
+          <span class="descr">{{ item.descr }}</span>
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+
+  </div>
+</section>

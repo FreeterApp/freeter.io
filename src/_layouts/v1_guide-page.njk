@@ -1,0 +1,44 @@
+---
+layout: v1_base.njk
+activeArea: user-guide
+---
+{% macro renderItems(items) %}
+{% for item in items %}
+  <li{% if item.url == page.url %} class="current"{% endif %}>
+    {% if item.items %}
+      <div class="title">{{ item.title }}</div>
+      <ul>
+        {{ renderItems(item.items) }}
+      </ul>
+    {% else %}
+      <a href="{{ item.url|e }}">{{ item.title }}</a>
+    {% endif %}
+  </li>
+{% endfor %}
+{% endmacro %}
+
+<section class="guide-page">
+  <div class="container">
+    <ul class="table-of-contents">
+      {{ renderItems(toc) }}
+    </ul>
+
+    <div class="article-area">
+      <ul class="breadcrumbs">
+        <li>
+          <a href="/user-guide">User Guide</a>
+        </li>
+      {% for item in breadcrumbs %}
+        {% if loop.last %}
+        <li>
+          {{ item.title }}
+        </li>
+        {% endif %}
+      {% endfor %}
+      </ul>
+      <article>
+        {{ content | safe }}
+      </article>
+    </div>
+  </div>
+</section>
