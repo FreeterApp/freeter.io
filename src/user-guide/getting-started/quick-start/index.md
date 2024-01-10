@@ -1,6 +1,6 @@
 # Quick Start
 
-To get a quick start, let's add a first project to Freeter and upgrade the repetitive actions mentioned in [What is it for?](../what-is-it-for.html).
+To get a quick start, let's add a first project to Freeter and upgrade the repetitive actions mentioned in [What is it for?](../what-is-it-for).
 
 ## Adding Project
 
@@ -13,7 +13,7 @@ Done! You've just added a first project.
 
 ## Adding Opener
 
-The first example mentioned in [What is it for?](../what-is-it-for.html) was about Opening Project Files with Editing Tool. To open multiple files with a single click we will use Opener widget.
+The first example mentioned in [What is it for?](../what-is-it-for) was about Opening Project Files with Editing Tool. To open multiple files with a single click we will use Opener widget.
 
 1. Turn on the layout edit mode by clicking the Edit Layout button.
 2. Drag & Drop Opener widget from the header bar.
