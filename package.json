@@ -15,8 +15,9 @@
     "prod:pages": "npx eleventy",
     "prod:scripts": "webpack --mode=production",
     "prod:styles": "sass --no-source-map src/_styles:build/styles && postcss ./build/styles/*.css --replace",
-    "prod": "rimraf build && concurrently --names \"STYLES,SCRIPTS,PAGES,COPY\" -c \"blue.bold,magenta.bold,green.bold,yellow.bold\" \"yarn run prod:styles\" \"yarn run prod:scripts\" \"yarn run prod:pages\" \"yarn run prod:copy\"",
-    "publish": "yarn prod && yarn version --patch && git push --tags && git push && echo \"Successfully published a new version of the website\""
+    "prod": "rimraf build && yarn run setup-deps && concurrently --names \"STYLES,SCRIPTS,PAGES,COPY\" -c \"blue.bold,magenta.bold,green.bold,yellow.bold\" \"yarn run prod:styles\" \"yarn run prod:scripts\" \"yarn run prod:pages\" \"yarn run prod:copy\"",
+    "setup-deps": "yarn add sharp --ignore-engines",
+    "publish": "yarn run prod && yarn version --patch && git push --tags && git push && echo \"Successfully published a new version of the website\""
   },
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
