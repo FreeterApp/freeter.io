@@ -386,7 +386,7 @@ btnCtrlOrCmd: Ctrl
 #}
 </section>
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="/js/v1_actions.js?v={{pkg.version}}"></script>
+<script src="{{'/js/v1_actions.js' | bust}}"></script>
 <script>
 	$( document ).ready(function() {
     $(".typed").typed({

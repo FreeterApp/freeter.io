@@ -1,3 +1,7 @@
+const path = require('path');
+const {calcFileHash} = require('./src/_utils/file');
+const {bustCacheForUrl} = require('./src/_utils/url');
+
 module.exports = eleventyConfig => {
   eleventyConfig.addPassthroughCopy('src/!(_copy|_data|_includes|_layouts|_js|_styles|_utils)/**/*.{png,gif,jpg,svg}');
 
@@ -23,6 +27,17 @@ module.exports = eleventyConfig => {
   };
 
   eleventyConfig.setLibrary('md', markdownIt(mdOptions));
+
+  const hashCache = {};
+  eleventyConfig.addFilter('bust', function (url) { // no arrow func here
+    const [urlPath] = url.split('?');
+    const filePath = path.join('build', urlPath);
+    if(!hashCache[filePath]) {
+      hashCache[filePath] = calcFileHash(filePath);
+    }
+
+    return bustCacheForUrl(url, hashCache[filePath]);
+  });
 
   return {
     dir: {
