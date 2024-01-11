@@ -29,7 +29,7 @@
     <meta property="og:site_name" content="Freeter" />
     <meta property="og:type" content="{{ ogType }}" />
     <meta property="og:title" content="{{ pageTitle }}" />
-    <meta property="og:url" content="https://freeter.io{{ page.url }}" />
+    <meta property="og:url" content="https://freeter.io{{ ogUrlPath | default(page.url) }}" />
     <meta property="og:description" content="{{ pageDescription }}" />
 
     <!-- Twitter -->
