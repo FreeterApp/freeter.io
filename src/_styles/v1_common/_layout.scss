@@ -1,3 +1,7 @@
+$v2-note-height: 60px;
+$v2-note-height-sm: 100px;
+$v2-note-height-xs: 140px;
+
 @include keyframes(anim-floating) {
   0%   { @include transform(translateY(0px));  }
   50%  { @include transform(translateY(10px)); }
@@ -42,6 +46,7 @@ header, section {
   }
 }
 header {
+  margin-top: $v2-note-height;
   background: $clr-white;
   // overflow: hidden;
   .logo {
@@ -376,3 +381,48 @@ footer {
     }
   }
 }
+
+.v2-note {
+  position: fixed;
+  width: 100%;
+  top:0;
+  left:0;
+  background-color: $clr-red;
+  color: $clr-white;
+  text-align: center;
+  height: $v2-note-height;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  .btn {
+    @include button-variant($clr-red, $clr-white, $clr-white);
+  }
+}
+
+@media (max-width: $screen-sm-max) {
+  .v2-note {
+    height: $v2-note-height-sm;
+  }
+  header {
+    margin-top: $v2-note-height-sm;
+  }
+}
+
+@media (max-width: 480px) {
+  .v2-note {
+    height: $v2-note-height-xs;
+  }
+  header {
+    margin-top: $v2-note-height-xs;
+  }
+}
+
+// @media (max-width: $screen-md-max) {
+//   .v2-note {
+//     height: $v2-note-height-sm;
+//   }
+//   header {
+//     margin-top: $v2-note-height-sm;
+//   }
+// }
