@@ -1,0 +1,88 @@
+body {
+  font-weight: 400;
+}
+
+.btn-primary {
+  @include button-variant($clr-green, $clr-green, $color: $clr-white, $hover-color: $clr-white, $active-color: $clr-white);
+}
+
+body {
+  background: $clr-grey-darkest;
+}
+
+header {
+  background: $clr-white;
+  .navbar-brand {
+    svg {
+      width: 42px;
+      height: 42px;
+    }
+    path {
+      fill: $clr-grey-dark;
+    }
+  }
+}
+
+section {
+  background: $clr-white;
+}
+
+section.info-page {
+  text-align: center;
+  background: $clr-white;
+}
+
+footer {
+  background: $clr-grey-darkest;
+  padding: 2rem 0 4rem;
+  color: $clr-white;
+
+  .nav {
+    a {
+      color: $clr-white;
+      text-decoration: none;
+
+      &:hover,
+      &:focus {
+        color: $clr-white;
+        text-decoration: none;
+        border-bottom: 2px solid $clr-white;
+      }
+    }
+  }
+  .footer-social {
+    .logo-twitter {
+      display: inline-block;
+      width: 30px;
+      height: 24px;
+      fill: $clr-blue;
+      vertical-align: middle;
+      margin-top: -2px;
+    }
+    span {
+      display: inline-block;
+      line-height: 24px;
+      vertical-align: middle;
+      margin-left: 12px;
+    }
+    a {
+      color: $clr-grey-dark-light;
+      text-decoration: none;
+      font-weight: 300;
+      strong {
+        color: $clr-white;
+        font-weight: 400;
+      }
+      &:hover,
+      &:focus {
+        color: $clr-grey-dark-light;
+        text-decoration: none;
+        strong {
+          color: $clr-white;
+          border-bottom: 2px solid $clr-white;
+        }
+      }
+    }
+  }
+}
+

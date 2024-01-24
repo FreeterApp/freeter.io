@@ -1,0 +1,112 @@
+---json
+{
+  "navigationBar": [
+    ["/v2/download", "download", "Download", false, false],
+    ["//community.freeter.io", "community", "Community", true, true]
+  ],
+  "activeArea": "index",
+  "ogType": "website",
+  "twitterCard": "summary_large_image",
+  "pageImage": "/images/site-image.png",
+  "pageTitle": "The Organizer for Those Who Do",
+  "pageDescription": "Freeter - The smartest way to work on your computer."
+}
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>{{ pageTitle }} - Freeter</title>
+    <meta name="description" content="{{ pageDescription }}">
+
+    <!-- OpenGraph -->
+    <meta property="og:image" content="https://freeter.io{{ pageImage }}" />
+    <meta property="og:site_name" content="Freeter" />
+    <meta property="og:type" content="{{ ogType }}" />
+    <meta property="og:title" content="{{ pageTitle }}" />
+    <meta property="og:url" content="https://freeter.io{{ ogUrlPath | default(page.url) }}" />
+    <meta property="og:description" content="{{ pageDescription }}" />
+
+    <!-- Twitter -->
+    <meta name="twitter:image" content="https://freeter.io{{ pageImage }}" />
+    <meta name="twitter:site" content="@FreeterApp" />
+    <meta name="twitter:card" content="{{ twitterCard }}" />
+    <meta name="twitter:title" content="{{ pageTitle }}" />
+    <meta name="twitter:description" content="{{ pageDescription }}" />
+
+    <!-- Site stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:500,400italic,400,300,700" rel="stylesheet" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+    <link href="{{'/styles/v2_site.css' | bust}}" rel="stylesheet">
+
+    <!-- Site scripts -->
+    <script src="{{'/js/v2_common.js' | bust}}"></script>
+
+    <!-- Fav/touch icons -->
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon-precomposed" href="/images/logo-152x152.png">
+  </head>
+  <body id="{{activeArea}}">
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-expand-sm">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="/v2/">
+              <svg viewBox="0 0 42 42" version="1.1" 	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+                <path d="M 19 17 L 26 17 L 26 24 L 19 24 L 19 17 ZM 9 7 L 16 7 L 16 35 L 9 35 L 9 7 ZM 19 7 L 33 7 L 33 14 L 19 14 L 19 7 ZM 0 0 L 0 42 L 42 42 L 42 0 L 0 0 Z" />
+              </svg>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
+              <ul class="navbar-nav mb-2 mb-sm-0 align-items-center">
+                {% for href, id, caption, hiddenXs, newTab in navigationBar %}
+                <li class="nav-item">
+                  <a class="nav-link {% if id == activeArea %} active{% endif %}" href="{{ href|e }}"{% if newTab %} target="_blank"{% endif %}>{{ caption|e }}</a>
+                </li>
+                {% endfor %}
+                <li class="nav-item nav-link">
+                  <a id="btn-sponsor" href="/v2/sponsor" class="btn btn-primary">
+                    <i class="bi bi-heart"></i>
+                    Donate
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    {{ content | safe }}
+    <footer>
+      <div class="container d-flex flex-column flex-md-row align-items-center">
+        <ul class="nav flex-grow-1 mb-4 mb-md-0">
+          <li class="nav-item nav-link">
+            <a href="/v2/privacy">Privacy</a>
+          </li>
+          <li class="nav-item nav-link">
+            <a href="/v2/release-notes">Releases</a>
+          </li>
+          <li class="nav-item nav-link">
+            <a href="mailto:contact@freeter.io">Contact</a>
+          </li>
+        </ul>
+        <div class="footer-social">
+          <a href="https://twitter.com/FreeterApp" target="_blank">
+            <svg class="logo-twitter" viewBox="0 0 30 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
+              <path d="M 30.0364 2.6741 C 28.9299 3.1648 27.7409 3.4963 26.4928 3.6455 C 27.7667 2.8818 28.7451 1.6729 29.2056 0.2322 C 28.0136 0.9392 26.6931 1.4526 25.2877 1.7292 C 24.1623 0.5303 22.5588 -0.219 20.7842 -0.219 C 17.3768 -0.219 14.6143 2.5432 14.6143 5.9504 C 14.6143 6.4341 14.6689 6.9048 14.774 7.3567 C 9.6464 7.0994 5.1002 4.6431 2.0571 0.9102 C 1.526 1.8215 1.2218 2.8813 1.2218 4.012 C 1.2218 6.1523 2.311 8.0408 3.9666 9.1472 C 2.9552 9.1155 2.0038 8.8379 1.172 8.3757 C 1.1715 8.4016 1.1714 8.4272 1.1714 8.4534 C 1.1714 11.4426 3.2982 13.9365 6.1207 14.5032 C 5.6028 14.644 5.0579 14.7195 4.4951 14.7195 C 4.0976 14.7195 3.7111 14.6809 3.3344 14.6089 C 4.1195 17.0601 6.3981 18.8438 9.0978 18.8938 C 6.9863 20.5486 4.3259 21.5347 1.4354 21.5347 C 0.9373 21.5347 0.4462 21.5056 -0.0364 21.4487 C 2.694 23.1992 5.9371 24.2205 9.4213 24.2205 C 20.7699 24.2205 26.9756 14.8193 26.9756 6.6658 C 26.9756 6.3984 26.9696 6.1326 26.9578 5.8677 C 28.1632 4.9978 29.2092 3.9114 30.0364 2.6741 Z"/>
+            </svg>
+            <span>
+              Follow <strong>@FreeterApp</strong>
+            </span>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

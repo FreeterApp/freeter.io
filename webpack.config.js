@@ -3,6 +3,7 @@ const path = require("path");
 module.exports = {
   entry: {
     v1_actions: "./src/_js/v1_actions.js",
+    v2_common: "./src/_js/v2_common.js",
   },
   output: {
     filename: "[name].js",
