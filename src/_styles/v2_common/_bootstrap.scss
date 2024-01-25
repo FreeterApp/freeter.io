@@ -9,7 +9,7 @@ $font-family-base: 'Roboto', sans-serif;
 
 $font-size-base: 1rem;
 
-$h1-font-size: $font-size-base * 2;
+$h1-font-size: $font-size-base * 2.25;
 $h2-font-size: $font-size-base * 1.75;
 $h3-font-size: $font-size-base * 1.5;
 $h4-font-size: $font-size-base * 1.25;
@@ -17,7 +17,7 @@ $h5-font-size: $font-size-base * 1.1;
 $h6-font-size: $font-size-base;
 
 $btn-font-weight: 400;
-$headings-font-weight: 500;
+$headings-font-weight: 400;
 $headings-line-height: 1.4;
 
 // 3. Include remainder of required Bootstrap stylesheets (including any separate color mode stylesheets)

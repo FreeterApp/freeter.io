@@ -23,13 +23,12 @@ header {
   }
 }
 
-section {
+article {
   background: $clr-white;
 }
 
-section.info-page {
-  text-align: center;
-  background: $clr-white;
+h1 {
+  font-weight: 500;
 }
 
 footer {

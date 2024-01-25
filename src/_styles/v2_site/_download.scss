@@ -1,8 +1,11 @@
 body#download {
-  .info-page {
+  article {
+    text-align: center;
     padding: 4rem 0;
-    .container {
-      max-width: 960px;
+    @include media-breakpoint-up(lg) {
+      .container {
+        max-width: 960px;
+      }
     }
   }
   .os-list {
