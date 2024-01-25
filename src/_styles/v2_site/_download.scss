@@ -1,12 +1,6 @@
 body#download {
   article {
     text-align: center;
-    padding: 4rem 0;
-    @include media-breakpoint-up(lg) {
-      .container {
-        max-width: 960px;
-      }
-    }
   }
   .os-list {
     border-bottom: 1px solid $clr-grey-light;

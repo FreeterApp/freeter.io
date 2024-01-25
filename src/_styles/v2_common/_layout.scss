@@ -25,6 +25,12 @@ header {
 
 article {
   background: $clr-white;
+  padding: 4rem 0;
+  @include media-breakpoint-up(lg) {
+    .container {
+      max-width: 960px;
+    }
+  }
 }
 
 h1 {

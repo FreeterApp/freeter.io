@@ -1,12 +1,4 @@
 body#release-notes {
-  article {
-    padding: 4rem 0;
-    @include media-breakpoint-up(lg) {
-      .container {
-        max-width: 960px;
-      }
-    }
-  }
 
   .version {
     padding: 36px 0;
