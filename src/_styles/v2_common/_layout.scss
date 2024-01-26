@@ -42,49 +42,53 @@ footer {
   padding: 2rem 0 4rem;
   color: $clr-white;
 
-  .nav {
+  .footer-links {
     a {
       color: $clr-white;
       text-decoration: none;
+      border-bottom: 2px solid transparent;
 
       &:hover,
       &:focus {
         color: $clr-white;
         text-decoration: none;
-        border-bottom: 2px solid $clr-white;
+        border-bottom-color: $clr-white;
       }
     }
   }
   .footer-social {
-    .logo-twitter {
+    .social-logo {
       display: inline-block;
+    }
+    .social-logo-twitter {
       width: 30px;
       height: 24px;
       fill: $clr-blue;
-      vertical-align: middle;
+      margin-top: -2px;
+    }
+    .social-logo-github {
+      width: 26px;
+      height: 26px;
+      fill: $clr-white;
       margin-top: -2px;
     }
     span {
-      display: inline-block;
-      line-height: 24px;
-      vertical-align: middle;
+      display: inline;
       margin-left: 12px;
+      vertical-align: middle;
     }
     a {
-      color: $clr-grey-dark-light;
+      color: $clr-white;
       text-decoration: none;
-      font-weight: 300;
-      strong {
-        color: $clr-white;
-        font-weight: 400;
+      span {
+        border-bottom: 2px solid transparent;
       }
       &:hover,
       &:focus {
-        color: $clr-grey-dark-light;
+        color: $clr-white;
         text-decoration: none;
-        strong {
-          color: $clr-white;
-          border-bottom: 2px solid $clr-white;
+        span {
+          border-bottom-color: $clr-white;
         }
       }
     }
