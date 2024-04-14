@@ -1,4 +1,4 @@
-const calcUrlsInItemsTree = require('../_utils/itemsTree').calcUrlsInItemsTree;
+const calcUrlsInItemsTree = require('../../_utils/itemsTree').calcUrlsInItemsTree;
 
 function generateColumns (contents) {
   var columns = [[], [], []]
@@ -27,7 +27,7 @@ function generateColumns (contents) {
   return columns
 }
 
-const pathRoot = '/embedding-web-apps';
+const pathRoot = '/v1/embedding-web-apps';
 
 const apps = calcUrlsInItemsTree(require('./apps.json'), pathRoot);
 const columns = generateColumns(apps);
