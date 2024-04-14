@@ -1,4 +1,4 @@
-const recentVer = '2.2.0-alpha';
+const recentVer = '2.3.0-beta';
 const recentVerTag = 'v' + recentVer;
 
 module.exports = {
