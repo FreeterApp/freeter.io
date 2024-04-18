@@ -4,6 +4,7 @@ module.exports = {
   entry: {
     v1_actions: "./src/_js/v1_actions.js",
     v2_common: "./src/_js/v2_common.js",
+    v2_index: "./src/_js/v2_index.js",
   },
   output: {
     filename: "[name].js",
