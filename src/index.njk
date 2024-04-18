@@ -19,7 +19,7 @@ activeArea: index
   <div id="screenshot-bg2">
   </div>
   <div id="screenshot-img">
-    <img src="/images/app-screen.png" />
+    <img src="/images/app-screen.png" class="img-shadow" />
   </div>
 </section>
 <section id="more" class="info-section">
@@ -61,7 +61,7 @@ activeArea: index
         Gather everything you need for work in one place, grouped by projects and workflows and have a quick access to them.
       </p>
       <p class="p-image">
-        <img src="/images/v1/more-all-in-one.png" class="img-fluid" />
+        <img src="/images/index-all-in-one.png" class="img-fluid" />
       </p>
     </div>
   </div>
@@ -70,7 +70,7 @@ activeArea: index
     <div class="container">
       <div class="row-info">
         <div class="col-left col-img">
-          <img src="/images/v1/more-projects.png" class="img-fluid" />
+          <img src="/images/index-project-switcher.png" class="img-fluid img-shadow" />
         </div>
         <div class="col-right col-txt">
           <p class="p-head">
@@ -107,7 +107,7 @@ activeArea: index
           </p> #}
         </div>
         <div class="col-right col-img">
-          <img src="/images/v1/more-dashboard.png" class="img-fluid" />
+          <img src="/images/index-add-widget.png" class="img-fluid img-shadow" />
         </div>
       </div>
     </div>
@@ -117,7 +117,7 @@ activeArea: index
     <div class="container">
       <div class="row-info">
         <div class="col-left col-img">
-          <img src="/images/v1/more-webpage.png" class="img-fluid" />
+          <img src="/images/index-webpage-widget.png" class="img-fluid img-shadow" />
         </div>
         <div class="col-right col-txt">
           <p class="p-head">
@@ -144,7 +144,7 @@ activeArea: index
       <div class="row-info">
         <div class="col-left col-txt">
           <p class="p-head">
-            Opener Widget
+            File Opener Widget
           </p>
           <p class="p-title">
             Open files and folders
@@ -154,7 +154,7 @@ activeArea: index
           </p>
         </div>
         <div class="col-right col-img">
-          <img src="/images/v1/more-opener.png" class="img-fluid" />
+          <img src="/images/index-file-opener-widget.png" class="img-fluid img-shadow" />
         </div>
       </div>
     </div>
@@ -164,7 +164,7 @@ activeArea: index
     <div class="container">
       <div class="row-info">
         <div class="col-left col-txt">
-          <img src="/images/v1/more-web-search.png" class="img-fluid" />
+          <img src="/images/index-web-query-widget.png" class="img-fluid img-shadow" />
         </div>
         <div class="col-right col-img">
           <p class="p-head">
@@ -196,7 +196,7 @@ activeArea: index
           </p>
         </div>
         <div class="col-right col-img">
-          <img src="/images/v1/more-to-do-list.png" class="img-fluid" />
+          <img src="/images/index-to-do-list-widget.png" class="img-fluid img-shadow" />
         </div>
       </div>
     </div>
@@ -206,7 +206,7 @@ activeArea: index
     <div class="container">
       <div class="row-info">
         <div class="col-left col-img">
-          <img src="/images/v1/more-commander.png" class="img-fluid" />
+          <img src="/images/index-commander-widget.png" class="img-fluid img-shadow" />
         </div>
         <div class="col-right col-txt">
           <p class="p-head">
@@ -238,7 +238,7 @@ activeArea: index
           </p>
         </div>
         <div class="col-right col-img">
-          <img src="/images/v1/more-opener.png" class="img-fluid" />
+          <img src="/images/index-timer-widget.png" class="img-fluid img-shadow" />
         </div>
       </div>
     </div>
@@ -248,7 +248,7 @@ activeArea: index
     <div class="container">
       <div class="row-info">
         <div class="col-left col-img">
-          <img src="/images/v1/more-text.png" class="img-fluid" />
+          <img src="/images/index-note-widget.png" class="img-fluid img-shadow" />
         </div>
         <div class="col-right col-txt">
           <p class="p-head">
@@ -280,7 +280,7 @@ activeArea: index
           </p>
         </div>
         <div class="col-right col-txt">
-          <img src="/images/v1/more-tabs.png" class="img-fluid" />
+          <img src="/images/index-workflow-tabs.png" class="img-fluid img-shadow" />
         </div>
       </div>
     </div>
@@ -290,7 +290,7 @@ activeArea: index
     <div class="container">
       <div class="row-info">
         <div class="col-left col-img">
-          <img src="/images/v1/more-tabs.png" class="img-fluid" />
+          <img src="/images/index-shelf.png" class="img-fluid img-shadow" />
         </div>
         <div class="col-right col-txt">
           <p class="p-head">
@@ -362,7 +362,7 @@ activeArea: index
 </section>
 
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="{{'/js/v1_actions.js' | bust}}"></script>
+<script src="{{'/js/v2_index.js' | bust}}"></script>
 <script>
 	$( document ).ready(function() {
     $(".typed").typed({

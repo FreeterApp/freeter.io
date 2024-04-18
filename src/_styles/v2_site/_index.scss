@@ -65,9 +65,12 @@ body#index {
         width: 100%;
         max-width: 970px;
         border-radius: 6px;
-        box-shadow: 0 0 12px 0 #00000060;
       }
     }
+  }
+
+  .img-shadow {
+    box-shadow: 0 0 12px 0 #00000060;
   }
 
   .info-section {
