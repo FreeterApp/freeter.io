@@ -113,3 +113,51 @@ body#download {
     font-weight: 400;
   }
 }
+
+body#download-os {
+  .dl-note {
+    text-align: center;
+  }
+
+  hr.divider {
+    max-width: 300px;
+    margin: 3rem auto;
+  }
+
+  .donate {
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+  }
+
+  .credits {
+    text-align: center;
+
+    h3 {
+      margin: 2rem 0 0.7rem;
+    }
+  }
+
+  .list-sponsors, .list-backers {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    li {
+      display: flex;
+      align-items: center;
+      padding: 0.35rem 1rem;
+    }
+  }
+
+  .list-sponsors {
+    font-size: 1.5rem;
+  }
+
+  // .list-backers {
+  // }
+}

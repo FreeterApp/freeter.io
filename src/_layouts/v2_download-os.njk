@@ -1,0 +1,47 @@
+---json
+{
+  "layout": "v2_base.njk",
+  "pageTitle": "Thank you for downloading Freeter",
+  "activeArea": "download-os",
+  "robotsNoIndex": true,
+  "dlFilename": "linux-x64.tar.xz"
+}
+---
+{% set dlUrl = ["https://freeter.io/v2/download/r/", v2_app.recentVerTag, "/Freeter-", v2_app.recentVer, "-", dlFilename] | join %}
+<article>
+  <section class="container dl-note">
+    <h1>
+      Thanks for downloading Freeter!
+    </h1>
+    <p class="lead">Your download will start automatically. If it didn't start, <a href="{{dlUrl}}">click here</a>.<p>
+  </section>
+
+  <section class="container donate">
+    <hr class="divider" />
+    <h2>Donate to Freeter</h2>
+    <p>Freeter 2 is a free and open-source software with its ongoing development made possible entirely by the support of the awesome sponsors &amp; backers.</p>
+    <p>To find more info on the membership tiers and join, <a href="https://www.patreon.com/alexkaul" target="_blank">check the Patreon page</a>.</p>
+  </section>
+
+  <section class="container credits">
+    <h3>Founding Bronze Sponsors</h3>
+    <ul class="list-sponsors">
+      <li>Nick Hitch</li>
+    </ul>
+
+    <h3>Founding Backers</h3>
+    <ul class="list-backers">
+      <li><b>Nick Hitch</b></li>
+      <li><b>Ryann Hoffman</b></li>
+      <li><b>Ernesto</b></li>
+      <li>Greg Lehmkuhl</li>
+      <li>Rv3nDr3mr</li>
+      <li>Mark Creamer</li>
+    </ul>
+  </section>
+</article>
+<script>
+  window.onload=function() {
+    window.location='{{dlUrl}}';
+  }
+</script>

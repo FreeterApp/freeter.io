@@ -9,7 +9,8 @@
   "twitterCard": "summary_large_image",
   "pageImage": "/images/site-image.png",
   "pageTitle": "The Organizer for Those Who Do",
-  "pageDescription": "Freeter - The smartest way to work on your computer."
+  "pageDescription": "Freeter - The smartest way to work on your computer.",
+  "robotsNoIndex": false
 }
 ---
 <!doctype html>
@@ -21,6 +22,10 @@
 
     <title>{{ pageTitle }} - Freeter</title>
     <meta name="description" content="{{ pageDescription }}">
+
+    {% if robotsNoIndex %}
+    <meta name="robots" content="nofollow, noindex" />
+    {% endif %}
 
     <!-- OpenGraph -->
     <meta property="og:image" content="https://freeter.io{{ pageImage }}" />
