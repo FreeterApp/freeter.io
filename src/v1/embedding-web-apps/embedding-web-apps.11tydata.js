@@ -1,8 +1,8 @@
-const itemsTreeToBreadcrumbs = require('../_utils/breadcrumbs').itemsTreeToBreadcrumbs;
-const calcUrlsInItemsTree = require('../_utils/itemsTree').calcUrlsInItemsTree;
-const getItemByUrl = require('../_utils/itemsTree').getItemByUrl;
+const itemsTreeToBreadcrumbs = require('../../_utils/breadcrumbs').itemsTreeToBreadcrumbs;
+const calcUrlsInItemsTree = require('../../_utils/itemsTree').calcUrlsInItemsTree;
+const getItemByUrl = require('../../_utils/itemsTree').getItemByUrl;
 
-const pathRoot = '/embedding-web-apps';
+const pathRoot = '/v1/embedding-web-apps';
 
 const apps = calcUrlsInItemsTree(require('./apps.json'), pathRoot);
 

@@ -9,7 +9,7 @@ pageTitle: Download Freeter 2
       Download Freeter 2
     </h1>
     <p class="h3 mb-5">
-      Current version: {{v2_app.recentVer}} — <a href="/v2/release-notes">Changelog</a>
+      Current version: {{v2_app.recentVer}} — <a href="/release-notes">Changelog</a>
     </p>
 
     <ul class="os-list d-flex justify-content-around flex-column flex-sm-row">
@@ -26,13 +26,13 @@ pageTitle: Download Freeter 2
           (Windows 10, 11)
         </div>
         <div class="download-area">
-          <a href="/v2/download/r/{{v2_app.recentVerTag}}/Freeter-{{v2_app.recentVer}}-win-x64.msi" class="btn btn-primary mb-2">
+          <a href="/download/win-x64-msi" class="btn btn-primary mb-2">
             <svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
               <path d="M 4 20 L 4 24 L 20 24 L 20 20 L 4 20 ZM 8 0 L 8 9 L 4 9 L 12 17 L 20 9 L 16 9 L 16 0 L 8 0 Z" />
             </svg>
             <span>Installer</span>
           </a>
-          <a href="/v2/download/r/{{v2_app.recentVerTag}}/Freeter-{{v2_app.recentVer}}-win-x64.zip" class="btn btn-primary">
+          <a href="/download/win-x64-zip" class="btn btn-primary">
             <svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
               <path d="M 4 20 L 4 24 L 20 24 L 20 20 L 4 20 ZM 8 0 L 8 9 L 4 9 L 12 17 L 20 9 L 16 9 L 16 0 L 8 0 Z" />
             </svg>
@@ -54,7 +54,7 @@ pageTitle: Download Freeter 2
           (Linux with GUI)
         </div>
         <div class="download-area">
-          <a href="/v2/download/r/{{v2_app.recentVerTag}}/Freeter-{{v2_app.recentVer}}-linux-x64.tar.xz" class="btn btn-primary">
+          <a href="/download/linux-x64-tar-xz" class="btn btn-primary">
             <svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
               <path d="M 4 20 L 4 24 L 20 24 L 20 20 L 4 20 ZM 8 0 L 8 9 L 4 9 L 12 17 L 20 9 L 16 9 L 16 0 L 8 0 Z" />
             </svg>
@@ -76,13 +76,13 @@ pageTitle: Download Freeter 2
           (OS 10.15+)
         </div>
         <div class="download-area">
-          <a href="/v2/download/r/{{v2_app.recentVerTag}}/Freeter-{{v2_app.recentVer}}-mac-x64.dmg" class="btn btn-primary mb-2">
+          <a href="/download/mac-x64-dmg" class="btn btn-primary mb-2">
             <svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
               <path d="M 4 20 L 4 24 L 20 24 L 20 20 L 4 20 ZM 8 0 L 8 9 L 4 9 L 12 17 L 20 9 L 16 9 L 16 0 L 8 0 Z" />
             </svg>
             <span>Intel</span>
           </a>
-          <a href="/v2/download/r/{{v2_app.recentVerTag}}/Freeter-{{v2_app.recentVer}}-mac-arm64.dmg" class="btn btn-primary">
+          <a href="/download/mac-arm64-dmg" class="btn btn-primary">
             <svg viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
               <path d="M 4 20 L 4 24 L 20 24 L 20 20 L 4 20 ZM 8 0 L 8 9 L 4 9 L 12 17 L 20 9 L 16 9 L 16 0 L 8 0 Z" />
             </svg>
@@ -92,14 +92,33 @@ pageTitle: Download Freeter 2
       </li>
     </ul>
 
-    <p class="h2">Download Source Code</p>
-    <p>
-      <a href="https://github.com/FreeterApp/Freeter" target="_blank">GitHub Repo</a>
-      |
-      <a href="https://github.com/FreeterApp/Freeter/archive/refs/tags/{{v2_app.recentVerTag}}.zip">Source Code (.zip)</a>
-      |
-      <a href="https://github.com/FreeterApp/Freeter/archive/refs/tags/{{v2_app.recentVerTag}}.tar.gz">Source Code (.tar.gz)</a>
-    </p>
+    <section>
+      <h2>Download Source Code</h2>
+      <p>
+        <a href="https://github.com/FreeterApp/Freeter" target="_blank">GitHub Repo</a>
+        |
+        <a href="https://github.com/FreeterApp/Freeter/archive/refs/tags/{{v2_app.recentVerTag}}.zip">Source Code (.zip)</a>
+        |
+        <a href="https://github.com/FreeterApp/Freeter/archive/refs/tags/{{v2_app.recentVerTag}}.tar.gz">Source Code (.tar.gz)</a>
+      </p>
+    </section>
 
+    <section>
+      <h2>Download Freeter 1</h2>
+      <p>Freeter v1 is obsolete and not supported anymore. If you still want to download it, use the <a href="/v1/download">Freeter v1 download page</a>.</p>
+    </section>
+
+    <section>
+      <h2>How to launch Freeter on Windows?</h2>
+      <p>If you get a notification &laquo;prevented an unrecognized app from starting&raquo; when launching the app, click &laquo;More info&raquo;, then &laquo;Run anyway&raquo;.</p>
+    </section>
+
+    <section>
+      <h2>How to launch Freeter on MacOS?</h2>
+      <p>If you get a notification &laquo;cant&apos;t be opened because it is from an unidentified developer&raquo; when launching the app, close the notification, right-click the app icon and select &laquo;Open&raquo; in the context menu. When a notification appears, click the &laquo;Open&raquo; button.</p>
+      <p>If you get an error &laquo;is damaged and can&apos;t be opened&raquo; when launching the app, run the following in the Terminal:<br/>
+        <code>xattr -cr /Applications/Freeter.app</code>
+      </p>
+    </section>
   </div>
 </article>

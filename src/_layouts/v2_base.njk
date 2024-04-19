@@ -1,7 +1,7 @@
 ---json
 {
   "navigationBar": [
-    ["/v2/download", "download", "Download", false, false],
+    ["/download", "download", "Download", false, false],
     ["//community.freeter.io", "community", "Community", true, true]
   ],
   "activeArea": "index",
@@ -9,7 +9,8 @@
   "twitterCard": "summary_large_image",
   "pageImage": "/images/site-image.png",
   "pageTitle": "The Organizer for Those Who Do",
-  "pageDescription": "Freeter - The smartest way to work on your computer."
+  "pageDescription": "Freeter - The smartest way to work on your computer.",
+  "robotsNoIndex": false
 }
 ---
 <!doctype html>
@@ -21,6 +22,10 @@
 
     <title>{{ pageTitle }} - Freeter</title>
     <meta name="description" content="{{ pageDescription }}">
+
+    {% if robotsNoIndex %}
+    <meta name="robots" content="nofollow, noindex" />
+    {% endif %}
 
     <!-- OpenGraph -->
     <meta property="og:image" content="https://freeter.io{{ pageImage }}" />
@@ -54,7 +59,7 @@
       <div class="container">
         <nav class="navbar navbar-expand-sm">
           <div class="container-fluid">
-            <a class="navbar-brand" href="/v2/">
+            <a class="navbar-brand" href="/">
               <svg viewBox="0 0 42 42" version="1.1" 	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
                 <path d="M 19 17 L 26 17 L 26 24 L 19 24 L 19 17 ZM 9 7 L 16 7 L 16 35 L 9 35 L 9 7 ZM 19 7 L 33 7 L 33 14 L 19 14 L 19 7 ZM 0 0 L 0 42 L 42 42 L 42 0 L 0 0 Z" />
               </svg>
@@ -70,7 +75,7 @@
                 </li>
                 {% endfor %}
                 <li class="nav-item nav-link">
-                  <a id="btn-sponsor" href="/v2/sponsor" class="btn btn-primary">
+                  <a id="btn-sponsor" href="/sponsor" class="btn btn-primary">
                     <i class="bi bi-heart"></i>
                     Donate
                   </a>
@@ -87,7 +92,7 @@
       <div class="container d-flex flex-column flex-md-row align-items-center">
         <ul class="nav footer-links flex-grow-1 mb-4 mb-md-0">
           <li class="nav-item nav-link">
-            <a href="/v2/release-notes">Releases</a>
+            <a href="/release-notes">Releases</a>
           </li>
           <li class="nav-item nav-link">
             <a href="mailto:contact@freeter.io">Contact</a>

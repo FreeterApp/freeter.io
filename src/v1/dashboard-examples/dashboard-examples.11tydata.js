@@ -1,8 +1,8 @@
-const itemsTreeToBreadcrumbs = require('../_utils/breadcrumbs').itemsTreeToBreadcrumbs;
-const calcUrlsInItemsTree = require('../_utils/itemsTree').calcUrlsInItemsTree;
-const getItemByUrl = require('../_utils/itemsTree').getItemByUrl;
+const itemsTreeToBreadcrumbs = require('../../_utils/breadcrumbs').itemsTreeToBreadcrumbs;
+const calcUrlsInItemsTree = require('../../_utils/itemsTree').calcUrlsInItemsTree;
+const getItemByUrl = require('../../_utils/itemsTree').getItemByUrl;
 
-const pathRoot = '/dashboard-examples';
+const pathRoot = '/v1/dashboard-examples';
 
 const toc = calcUrlsInItemsTree(require('./toc.json'), pathRoot);
 
