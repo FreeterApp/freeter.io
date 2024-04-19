@@ -19,6 +19,9 @@ body#index {
     }
     h2 {
       margin-bottom: 50px;
+      @include media-breakpoint-down(sm) {
+        margin-bottom: 30px;
+      }
     }
     #logo {
       width: 400px;
@@ -42,7 +45,6 @@ body#index {
   }
 
   #screenshot {
-    padding:0;
     position: relative;
 
     div {
@@ -306,17 +308,6 @@ body#index {
         width: 100%;
         margin: auto;
         min-height:150px;
-        @include img-fluid();
-      }
-    }
-  }
-
-  @include media-breakpoint-down(md) {
-    #screenshot-img {
-      padding:0 20px;
-      img {
-        margin: auto;
-        @include img-fluid();
       }
     }
   }
