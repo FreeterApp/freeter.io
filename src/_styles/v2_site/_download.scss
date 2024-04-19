@@ -2,6 +2,11 @@ body#download {
   article {
     text-align: center;
   }
+  section {
+    &:not(:last-child) {
+      margin-bottom: 3rem;
+    }
+  }
   .os-list {
     border-bottom: 1px solid $clr-grey-light;
     color: $clr-grey-darker;
