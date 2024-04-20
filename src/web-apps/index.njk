@@ -1,0 +1,39 @@
+---
+layout: v2_base.njk
+activeArea: web-apps
+pageTitle: Web Apps
+pageDescription: Learn how to make web apps more accessible by embedding them into your Freeter workflows.
+---
+<section class="web-apps-index">
+  <div class="container">
+    <h1>
+      Web Apps
+    </h1>
+    <p class="lead">
+      Freeter's Webpage widget enables you to make your favorite web apps more accessible by embedding their most used features into Freeter workflows. Here are some examples for inspiration.
+    </p>
+
+    {% for column in columns %}
+    <div class="web-apps--column">
+      {% for category in column %}
+      <div class="web-apps--category">
+        <h3 class="web-apps--category--title" id="{{ category.item }}">
+          {{ category.title }}
+        </h3>
+        <ul class="web-apps--category--items">
+          {% for item in category.items %}
+          <li>
+            <a href="{{ item.url|e }}">
+              <img src="{{ item.url|e }}/{{ item.logo|e }}" />
+              <span>{{ item.title }}</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+    {% endfor %}
+
+  </div>
+</section>
