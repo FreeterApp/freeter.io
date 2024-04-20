@@ -17,7 +17,8 @@
         "item": "matomo",
         "logo": "matomo.png",
         "descr": "Easily access your most used Matomo reports by embedding them into Freeter workflow.",
-        "homeUrl": "https://matomo.org/"
+        "homeUrl": "https://matomo.org/matomo-on-premise/",
+        "pubUrl": "https://matomo.org/"
       },
       {
         "title": "Mixpanel",
@@ -33,7 +34,8 @@
         "item": "plausible",
         "logo": "plausible.png",
         "descr": "Easily access your most used Plausible reports by embedding them into Freeter workflow.",
-        "homeUrl": "https://plausible.io/"
+        "homeUrl": "https://github.com/plausible/community-edition/",
+        "pubUrl": "https://plausible.io/"
       }
     ]
   },
@@ -63,7 +65,8 @@
         "item": "mempool-space",
         "logo": "mempool-space.png",
         "descr": "Easily access your Bitcoin Explorer by embedding it into Freeter workflow.",
-        "homeUrl": "https://mempool.space/"
+        "homeUrl": "https://github.com/mempool/mempool",
+        "pubUrl": "https://mempool.space/"
       }
     ]
   },
