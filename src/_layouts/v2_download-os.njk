@@ -16,8 +16,11 @@
     <p class="lead">Your download will start automatically. If it didn't start, <a href="{{dlUrl}}">click here</a>.<p>
   </section>
 
-  <section class="container donate">
+  <section class="container notes">
     <hr class="divider" />
+
+    {{ content | safe }}
+
     <h2>Donate to Freeter</h2>
     <p>Freeter 2 is a free and open-source software with its ongoing development made possible entirely by the support of the awesome sponsors &amp; backers.</p>
     <p>To find more info on the membership tiers and join, <a href="https://www.patreon.com/alexkaul" target="_blank">check the Patreon page</a>.</p>

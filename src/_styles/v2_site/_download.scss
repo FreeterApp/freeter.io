@@ -124,12 +124,16 @@ body#download-os {
     margin: 3rem auto;
   }
 
-  .donate {
+  .notes {
     text-align: center;
-    max-width: 600px;
+    max-width: 850px;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3rem;
+
+    h2 {
+      margin-top: 2rem;
+    }
   }
 
   .credits {
