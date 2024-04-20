@@ -15,7 +15,7 @@
         "title": "Matomo",
         "metaDescr": "Find out how to access Matomo reports right from your Freeter workflow.",
         "item": "matomo",
-        "logo": "matomo.png",
+        "logo": "m-logo.png",
         "descr": "Easily access your most used Matomo reports by embedding them into Freeter workflow.",
         "homeUrl": "https://matomo.org/matomo-on-premise/",
         "pubUrl": "https://matomo.org/"
