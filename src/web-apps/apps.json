@@ -1,0 +1,509 @@
+[
+  {
+    "title": "Analytics",
+    "item": "analytics",
+    "items": [
+      {
+        "title": "Google Analytics",
+        "metaDescr": "Find out how to access Google Analytics reports right from your Freeter workflow.",
+        "item": "google-analytics",
+        "logo": "google-analytics.png",
+        "descr": "Easily access your most used Google Analytics reports by embedding them into Freeter workflow.",
+        "homeUrl": "https://analytics.google.com/"
+      },
+      {
+        "title": "Matomo",
+        "metaDescr": "Find out how to access Matomo reports right from your Freeter workflow.",
+        "item": "matomo",
+        "logo": "matomo.png",
+        "descr": "Easily access your most used Matomo reports by embedding them into Freeter workflow.",
+        "homeUrl": "https://matomo.org/matomo-on-premise/",
+        "pubUrl": "https://matomo.org/"
+      },
+      {
+        "title": "Mixpanel",
+        "metaDescr": "Find out how to access Mixpanel reports right from your Freeter workflow.",
+        "item": "mixpanel",
+        "logo": "mixpanel.png",
+        "descr": "Easily access your most used Mixpanel reports by embedding them into Freeter workflow.",
+        "homeUrl": "https://mixpanel.com/"
+      },
+      {
+        "title": "Plausible",
+        "metaDescr": "Find out how to access Plausible reports right from your Freeter workflow.",
+        "item": "plausible",
+        "logo": "plausible.png",
+        "descr": "Easily access your most used Plausible reports by embedding them into Freeter workflow.",
+        "homeUrl": "https://github.com/plausible/community-edition/",
+        "pubUrl": "https://plausible.io/"
+      }
+    ]
+  },
+  {
+    "title": "Bitcoin",
+    "item": "bitcoin",
+    "items": [
+      {
+        "title": "Citadel",
+        "metaDescr": "Find out how to access your Citadel dashboard from your Freeter workflow.",
+        "item": "citadel",
+        "logo": "citadel.png",
+        "descr": "Easily access your Citadel dashboard by embedding it into your Freeter workflow.",
+        "homeUrl": "https://runcitadel.space/"
+      },
+      {
+        "title": "Hodl Hodl",
+        "metaDescr": "Find out how to buy Bitcoin with Hodl Hodl from your Freeter workflow.",
+        "item": "hodlhodl",
+        "logo": "hodlhodl.png",
+        "descr": "Quickly buy Bitcoin by embedding Hodl Hodl into your Freeter workflow.",
+        "homeUrl": "https://hodlhodl.com/"
+      },
+      {
+        "title": "mempool.space",
+        "metaDescr": "Find out how to access your Bitcoin Explorer from Freeter workflow.",
+        "item": "mempool-space",
+        "logo": "mempool-space.png",
+        "descr": "Easily access your Bitcoin Explorer by embedding it into Freeter workflow.",
+        "homeUrl": "https://github.com/mempool/mempool",
+        "pubUrl": "https://mempool.space/"
+      }
+    ]
+  },
+  {
+    "title": "Blogging",
+    "item": "blogging",
+    "items": [
+      {
+        "title": "Ghost",
+        "metaDescr": "Find out how to access your Ghost Dashboard from Freeter workflow.",
+        "item": "ghost",
+        "logo": "ghost.png",
+        "descr": "Easily access your Ghost Dashboard by embedding it into Freeter workflow.",
+        "homeUrl": "https://ghost.org/docs/install/",
+        "pubUrl": "https://ghost.org/"
+      },
+      {
+        "title": "Medium",
+        "metaDescr": "Find out how to write and manage your stories on Medium right from Freeter workflow.",
+        "item": "medium",
+        "logo": "medium.png",
+        "descr": "Easily write and manage your stories on Medium by embedding it into Freeter workflow.",
+        "homeUrl": "https://medium.com/"
+      },
+      {
+        "title": "WordPress",
+        "metaDescr": "Find out how to access your WordPress Dashboard from Freeter workflow.",
+        "item": "wordpress",
+        "logo": "wordpress.png",
+        "descr": "Easily access your WordPress Dashboard by embedding it into Freeter workflow.",
+        "homeUrl": "https://wordpress.org/",
+        "pubUrl": "https://wordpress.com/"
+      }
+    ]
+  },
+  {
+    "title": "Calendar",
+    "item": "calendar",
+    "items": [
+      {
+        "title": "Google Calendar",
+        "metaDescr": "Find out how to access your Google Calendar right from your Freeter workflow.",
+        "item": "google-calendar",
+        "logo": "google-calendar.png",
+        "descr": "Easily access your Google Calendar by embedding it into Freeter workflow.",
+        "homeUrl": "https://www.google.com/calendar/"
+      }
+    ]
+  },
+  {
+    "title": "Chat",
+    "item": "chat",
+    "items": [
+      {
+        "title": "Mattermost",
+        "metaDescr": "Find out how to access a Mattermost channel right from your Freeter workflow.",
+        "item": "mattermost",
+        "logo": "mattermost.png",
+        "descr": "Easily access a Mattermost channel by embedding it into your Freeter workflow.",
+        "homeUrl": "https://mattermost.com/download/"
+      },
+      {
+        "title": "Slack",
+        "metaDescr": "Find out how to access a Slack channel right from your Freeter workflow.",
+        "item": "slack",
+        "logo": "slack.png",
+        "descr": "Easily access a Slack channel by embedding it into your Freeter workflow.",
+        "homeUrl": "https://slack.com/"
+      }
+    ]
+  },
+  {
+    "title": "Documents",
+    "item": "documents",
+    "items": [
+      {
+        "title": "CryptPad",
+        "metaDescr": "Find out how to view/edit documents in CryptPad right from your Freeter workflow.",
+        "item": "cryptpad",
+        "logo": "cryptpad.png",
+        "descr": "Quickly start a new document and simplify access to most used documents by embedding CryptPad into your Freeter workflow.",
+        "homeUrl": "https://cryptpad.org/",
+        "pubUrl": "https://cryptpad.org/instances/"
+      },
+      {
+        "title": "DocHub",
+        "metaDescr": "Find out how to import, view and edit documents in DocHub right from your Freeter workflow.",
+        "item": "dochub",
+        "logo": "dochub.png",
+        "descr": "Quickly import PDF documents and simplify access to most used ones by embedding DocHub into your Freeter workflow.",
+        "homeUrl": "https://dochub.com/"
+      },
+      {
+        "title": "Google Docs",
+        "metaDescr": "Find out how to view/edit documents in Google Docs right from your Freeter workflow.",
+        "item": "google-docs",
+        "logo": "google-docs.png",
+        "descr": "Quickly start a new document and simplify access to most used documents by embedding Google Docs into your Freeter workflow.",
+        "homeUrl": "https://docs.google.com/document/"
+      },
+      {
+        "title": "Lumin",
+        "metaDescr": "Find out how to import, view and edit PDF documents in Lumin right from your Freeter workflow.",
+        "item": "lumin",
+        "logo": "lumin.png",
+        "descr": "Quickly import PDF documents and simplify access to most used ones by embedding Lumin into your Freeter workflow.",
+        "homeUrl": "https://www.luminpdf.com/"
+      },
+      {
+        "title": "OnlyOffice",
+        "metaDescr": "Find out how to view/edit documents in OnlyOffice right from your Freeter workflow.",
+        "item": "onlyoffice",
+        "logo": "onlyoffice.png",
+        "descr": "Quickly start a new document and simplify access to most used documents by embedding OnlyOffice into your Freeter workflow.",
+        "homeUrl": "https://www.onlyoffice.com/download-workspace.aspx",
+        "pubUrl": "https://www.onlyoffice.com/signin.aspx"
+      },
+      {
+        "title": "Word",
+        "metaDescr": "Find out how to view/edit documents in Word right from your Freeter workflow.",
+        "item": "word",
+        "logo": "word.png",
+        "descr": "Quickly create new documents and simplify access to most used ones by embedding Word into your Freeter workflow.",
+        "homeUrl": "https://office.live.com/start/Word.aspx"
+      }
+    ]
+  },
+  {
+    "title": "Email Newsletter",
+    "item": "email-newsletter",
+    "items": [
+      {
+        "title": "Brevo",
+        "metaDescr": "Find out how to access your Brevo dashboard, statistics, campaigns and lists right from Freeter workflow.",
+        "item": "brevo",
+        "logo": "brevo.png",
+        "descr": "Easily access your Brevo dashboard, statistics, campaigns and lists by embedding Brevo into Freeter workflow.",
+        "homeUrl": "https://www.brevo.com/"
+      },
+      {
+        "title": "Mad Mimi",
+        "metaDescr": "Find out how to access your Mad Mimi dashboard, statistics and audience right from Freeter workflow.",
+        "item": "mad-mimi",
+        "logo": "mad-mimi.png",
+        "descr": "Easily access your Mad Mimi dashboard, statistics and audience by embedding Mad Mimi into Freeter workflow.",
+        "homeUrl": "https://madmimi.com/"
+      },
+      {
+        "title": "MailChimp",
+        "metaDescr": "Find out how to access your MailChimp dashboard, campaigns, lists and reports right from Freeter workflow.",
+        "item": "mailchimp",
+        "logo": "mailchimp.png",
+        "descr": "Easily access your MailChimp dashboard, campaigns, lists and reports by embedding MailChimp into Freeter workflow.",
+        "homeUrl": "https://mailchimp.com/"
+      }
+    ]
+  },
+  {
+    "title": "Files",
+    "item": "files",
+    "items": [
+      {
+        "title": "Dropbox",
+        "metaDescr": "Find out how to access your Dropbox folder right from Freeter workflow.",
+        "item": "dropbox",
+        "logo": "dropbox.png",
+        "descr": "Easily access a Dropbox folder by embedding it into your Freeter workflow.",
+        "homeUrl": "https://www.dropbox.com/"
+      },
+      {
+        "title": "Google Drive",
+        "metaDescr": "Find out how to access your Google Drive folder right from Freeter workflow.",
+        "item": "google-drive",
+        "logo": "google-drive.png",
+        "descr": "Easily access a Google Drive folder by embedding it into your Freeter workflow.",
+        "homeUrl": "https://drive.google.com/"
+      },
+      {
+        "title": "OneDrive",
+        "metaDescr": "Find out how to access your OneDrive folder right from Freeter workflow.",
+        "item": "onedrive",
+        "logo": "onedrive.png",
+        "descr": "Easily access your OneDrive folder by embedding it into Freeter workflow.",
+        "homeUrl": "https://onedrive.live.com/"
+      }
+    ]
+  },
+  {
+    "title": "Forms",
+    "item": "forms",
+    "items": [
+      {
+        "title": "Google Forms",
+        "metaDescr": "Find out how to create forms and view responses in Google Forms right from your Freeter workflow.",
+        "item": "google-forms",
+        "logo": "google-forms.png",
+        "descr": "Quickly create new forms and view responses by embedding Google Forms into your Freeter workflow.",
+        "homeUrl": "https://docs.google.com/forms/"
+      },
+      {
+        "title": "JotForm",
+        "metaDescr": "Find out how to create forms and view form submissions in JotForm from your Freeter workflow.",
+        "item": "jotform",
+        "logo": "jotform.png",
+        "descr": "Quickly create new forms and view form submissions by embedding JotForm into your Freeter workflow.",
+        "homeUrl": "https://www.jotform.com/"
+      },
+      {
+        "title": "Typeform",
+        "metaDescr": "Find out how to create forms and view results in Typeform right from your Freeter workflow.",
+        "item": "typeform",
+        "logo": "typeform.png",
+        "descr": "Quickly create new forms and view results by embedding Typeform into your Freeter workflow.",
+        "homeUrl": "https://www.typeform.com/"
+      }
+    ]
+  },
+  {
+    "title": "Freelancing",
+    "item": "freelancing",
+    "items": [
+      {
+        "title": "Fiverr",
+        "metaDescr": "Find out how to manage your sales and view gig stats on Fiverr right from your Freeter workflow.",
+        "item": "fiverr",
+        "logo": "fiverr.png",
+        "descr": "Easily access your sales and view gig stats on Fiverr by embedding it into your Freeter workflow.",
+        "homeUrl": "https://www.fiverr.com/"
+      },
+      {
+        "title": "Freelancer",
+        "metaDescr": "Find out how to search jobs and view reports on Freelancer right from your Freeter workflow.",
+        "item": "freelancer",
+        "logo": "freelancer.png",
+        "descr": "Quickly search jobs and view reports on Freelancer by embedding it into your Freeter workflow.",
+        "homeUrl": "https://www.freelancer.com/"
+      },
+      {
+        "title": "Upwork",
+        "metaDescr": "Find out how to search jobs and view reports on Upwork right from your Freeter workflow.",
+        "item": "upwork",
+        "logo": "upwork.png",
+        "descr": "Quickly search jobs and view reports on Upwork by embedding it into your Freeter workflow.",
+        "homeUrl": "https://www.upwork.com/"
+      }
+    ]
+  },
+  {
+    "title": "Notes",
+    "item": "notes",
+    "items": [
+      {
+        "title": "Evernote",
+        "metaDescr": "Find out how to access your Evernote notebook from Freeter workflow.",
+        "item": "evernote",
+        "logo": "evernote.png",
+        "descr": "Easily access your notes on an Evernote notebook by embedding it into Freeter workflow.",
+        "homeUrl": "https://www.evernote.com/"
+      },
+      {
+        "title": "OneNote",
+        "metaDescr": "Find out how to access your OneNote notebook from Freeter workflow.",
+        "item": "onenote",
+        "logo": "onenote.png",
+        "descr": "Easily access your notes on an OneNote notebook by embedding it into Freeter workflow.",
+        "homeUrl": "https://www.onenote.com/"
+      },
+      {
+        "title": "Workflowy",
+        "metaDescr": "Find out how to access your Workflowy notes from Freeter workflow.",
+        "item": "workflowy",
+        "logo": "workflowy.png",
+        "descr": "Quickly access your Workflowy page by embedding it into Freeter workflow.",
+        "homeUrl": "https://workflowy.com/"
+      }
+    ]
+  },
+  {
+    "title": "Payment Processing",
+    "item": "payment-processing",
+    "items": [
+      {
+        "title": "BTCPay Server",
+        "metaDescr": "Find out how to access your BTCPay dashboard, invoices, payment requests, pull payments and payouts from Freeter workflow.",
+        "item": "btcpay-server",
+        "logo": "btcpay-server.png",
+        "descr": "Easily access your BTCPay dashboard, invoices, payment requests, pull payments and payouts by embedding BTCPay into Freeter workflow.",
+        "homeUrl": "https://btcpayserver.org/"
+      },
+      {
+        "title": "Chargebee",
+        "metaDescr": "Find out how to access your Chargebee dashboard, subscriptions and reports from Freeter workflow.",
+        "item": "chargebee",
+        "logo": "chargebee.png",
+        "descr": "Easily access your Chargebee dashboard, subscriptions and reports by embedding Chargebee into Freeter workflow.",
+        "homeUrl": "https://www.chargebee.com/"
+      },
+      {
+        "title": "CheddarGetter",
+        "metaDescr": "Find out how to access your CheddarGetter dashboard, customers and activity from Freeter workflow.",
+        "item": "cheddargetter",
+        "logo": "cheddargetter.png",
+        "descr": "Easily access your CheddarGetter dashboard, customers and activity by embedding CheddarGetter into Freeter workflow.",
+        "homeUrl": "https://cheddargetter.com/"
+      },
+      {
+        "title": "PayPal",
+        "metaDescr": "Find out how to access your PayPal wallet right from Freeter workflow.",
+        "item": "paypal",
+        "logo": "paypal.png",
+        "descr": "Easily access your PayPal wallet by embedding it into Freeter workflow.",
+        "homeUrl": "https://www.paypal.com/"
+      },
+      {
+        "title": "Stripe",
+        "metaDescr": "Find out how to access your Stripe dashboard right from Freeter workflow.",
+        "item": "stripe",
+        "logo": "stripe.png",
+        "descr": "Easily access your Stripe dashboard by embedding it into Freeter workflow.",
+        "homeUrl": "https://stripe.com/"
+      }
+    ]
+  },
+  {
+    "title": "Project Management",
+    "item": "project-management",
+    "items": [
+      {
+        "title": "Allo",
+        "metaDescr": "Find out how to access your Allo projects from Freeter workflow.",
+        "item": "allo",
+        "logo": "allo.png",
+        "descr": "Easily access your Allo projects by embedding them into Freeter workflow.",
+        "homeUrl": "https://allo.io/"
+      },
+      {
+        "title": "Asana",
+        "metaDescr": "Find out how to access your Asana dashboard, task list, team conversations and calendar right from Freeter workflow.",
+        "item": "asana",
+        "logo": "asana.png",
+        "descr": "Easily access your Asana dashboard, task list, team conversations and calendar by embedding Asana into Freeter workflow.",
+        "homeUrl": "https://asana.com/"
+      },
+      {
+        "title": "Basecamp",
+        "metaDescr": "Find out how to access your Basecamp's Campfire, Message Board, To-dos, Schedule, Check-ins, Docs & Files from Freeter workflow.",
+        "item": "basecamp",
+        "logo": "basecamp.png",
+        "descr": "Easily access your Basecamp's Campfire, Message Board, To-dos, Schedule, Check-ins, Docs & Files by embedding Basecamp into Freeter workflow.",
+        "homeUrl": "https://basecamp.com/"
+      },
+      {
+        "title": "Jira",
+        "metaDescr": "Find out how to access your Jira boards, releases, reports and issues from Freeter workflow.",
+        "item": "jira",
+        "logo": "jira.png",
+        "descr": "Easily access your Jira boards, releases, reports and issues by embedding Jira into Freeter workflow.",
+        "homeUrl": "https://www.atlassian.com/software/jira/"
+      },
+      {
+        "title": "Paymo",
+        "metaDescr": "Find out how to access your Paymo's dashboard, clients, project, invoices, time reports, tasks and schedule right from Freeter workflow.",
+        "item": "paymo",
+        "logo": "paymo.png",
+        "descr": "Easily access your Paymo's dashboard, clients, project, invoices, time reports, tasks and schedule by embedding Paymo into Freeter workflow.",
+        "homeUrl": "https://www.paymoapp.com/"
+      },
+      {
+        "title": "Trello",
+        "metaDescr": "Find out how to access your Trello board and tasks from Freeter workflow.",
+        "item": "trello",
+        "logo": "trello.png",
+        "descr": "Easily access tasks posted on a Trello board by embedding it into your Freeter workflow.",
+        "homeUrl": "https://trello.com/"
+      }
+    ]
+  },
+  {
+    "title": "Social Media",
+    "item": "social-media",
+    "items": [
+      {
+        "title": "Buffer",
+        "metaDescr": "Find out how to access your Buffer Dashboard from Freeter workflow.",
+        "item": "buffer",
+        "logo": "buffer.png",
+        "descr": "Easily access your Buffer Dashboard by embedding it into Freeter workflow.",
+        "homeUrl": "https://buffer.com/"
+      },
+      {
+        "title": "Hootsuite",
+        "metaDescr": "Find out how to access your Hootsuite Dashboard from Freeter workflow.",
+        "item": "hootsuite",
+        "logo": "hootsuite.png",
+        "descr": "Easily access your Hootsuite Dashboard by embedding it into Freeter workflow.",
+        "homeUrl": "https://hootsuite.com/"
+      }
+    ]
+  },
+  {
+    "title": "Spreadsheets",
+    "item": "spreadsheets",
+    "items": [
+      {
+        "title": "CryptPad",
+        "metaDescr": "Find out how to view/edit spreadsheets in CryptPad right from your Freeter workflow.",
+        "item": "cryptpad",
+        "logo": "cryptpad.png",
+        "descr": "Quickly start a new spreadsheet and simplify access to most used spreadsheets by embedding CryptPad into your Freeter workflow.",
+        "homeUrl": "https://cryptpad.org/",
+        "pubUrl": "https://cryptpad.org/instances/"
+      },
+      {
+        "title": "Excel",
+        "metaDescr": "Find out how to view/edit spreadsheets in Excel right from your Freeter workflow.",
+        "item": "excel",
+        "logo": "excel.png",
+        "descr": "Quickly start a new spreadsheet and simplify access to your most used spreadsheets by embedding Excel into Freeter workflow.",
+        "homeUrl": "https://office.live.com/start/Excel.aspx"
+      },
+      {
+        "title": "Google Sheets",
+        "metaDescr": "Find out how to view/edit spreadsheets in Google Sheets right from your Freeter workflow.",
+        "item": "google-sheets",
+        "logo": "google-sheets.png",
+        "descr": "Quickly start a new spreadsheet and simplify access to your most used spreadsheets by embedding Google Sheets into Freeter workflow.",
+        "homeUrl": "https://docs.google.com/spreadsheets/"
+      },
+      {
+        "title": "OnlyOffice",
+        "metaDescr": "Find out how to view/edit spreadsheets in OnlyOffice right from your Freeter workflow.",
+        "item": "onlyoffice",
+        "logo": "onlyoffice.png",
+        "descr": "Quickly start a new spreadsheet and simplify access to most used spreadsheets by embedding OnlyOffice into your Freeter workflow.",
+        "homeUrl": "https://www.onlyoffice.com/download-workspace.aspx",
+        "pubUrl": "https://www.onlyoffice.com/signin.aspx"
+      }
+    ]
+  }
+]

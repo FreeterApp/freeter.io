@@ -1,0 +1,32 @@
+---
+layout: v2_base.njk
+activeArea: web-apps
+ogType: object
+twitterCard: summary
+---
+<section class="web-apps-page">
+  <div class="container">
+    <ul class="breadcrumbs">
+      <li>
+        <a href="/web-apps">Web Apps</a>
+      </li>
+    {% for item in breadcrumbs %}
+      {% if loop.last %}
+      <li>
+        {{ item.title }}
+      </li>
+      {% endif %}
+    {% endfor %}
+    </ul>
+    <article>
+      <div class="col-logo">
+        <img src="{{ curItem.logoUrl|e }}" alt="{{ curItem.title }} Logo" />
+      </div>
+      <div class="col-text">
+        <h1>{{ curItem.title }}</h1>
+        <div class="descr">{{ curItem.descr }}</div>
+        {{ content | safe}}
+      </div>
+    </article>
+  </div>
+</section>
