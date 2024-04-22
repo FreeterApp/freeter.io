@@ -1,9 +1,10 @@
 ---json
 {
   "navigationBar": [
-    ["/web-apps", "web-apps", "Web Apps", true, false],
-    ["/download", "download", "Download", false, false],
-    ["//community.freeter.io", "community", "Community", true, true]
+    ["/workflow-examples", "workflow-examples", "Workflows", false],
+    ["/web-apps", "web-apps", "Web Apps", false],
+    ["/download", "download", "Download", false],
+    ["//community.freeter.io", "community", "Community", true]
   ],
   "activeArea": "index",
   "ogType": "website",
@@ -58,7 +59,7 @@
   <body id="{{activeArea}}">
     <header>
       <div class="container">
-        <nav class="navbar navbar-expand-md">
+        <nav class="navbar navbar-expand-lg">
           <div class="container-fluid">
             <a class="navbar-brand" href="/">
               <svg viewBox="0 0 42 42" version="1.1" 	xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
@@ -70,7 +71,7 @@
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarContent">
               <ul class="navbar-nav mb-2 mb-sm-0 align-items-center">
-                {% for href, id, caption, hiddenXs, newTab in navigationBar %}
+                {% for href, id, caption, newTab in navigationBar %}
                 <li class="nav-item">
                   <a class="nav-link {% if id == activeArea %} active{% endif %}" href="{{ href|e }}"{% if newTab %} target="_blank"{% endif %}>{{ caption|e }}</a>
                 </li>

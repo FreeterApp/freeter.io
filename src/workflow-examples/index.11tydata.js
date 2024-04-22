@@ -1,9 +1,9 @@
 const { mkdir } = require('node:fs/promises');
 const path = require('path');
 const sharp = require('sharp');
-const calcUrlsInItemsTree = require('../../_utils/itemsTree').calcUrlsInItemsTree;
+const calcUrlsInItemsTree = require('../_utils/itemsTree').calcUrlsInItemsTree;
 
-const pathRoot = '/v1/dashboard-examples';
+const pathRoot = '/workflow-examples';
 
 const toc =
   calcUrlsInItemsTree(require('./toc.json'), pathRoot)
