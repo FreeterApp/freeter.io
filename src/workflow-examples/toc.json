@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Web Development",
+    "item": "web-development",
+    "metaDescr": "Example of a Web Development workflow.",
+    "descr": "Manage the project tasks, open the website mockup in the image editor, open the project in the code editor, quickly search HTML/CSS docs, code examples, icons & images, execute a build command-line in the terminal, open the website in the browser and open the git repository."
+  },
+  {
+    "title": "Project Management",
+    "item": "project-management",
+    "metaDescr": "Example of a Project Management workflow.",
+    "descr": "Manage the project tasks and communicate with the team at the same time."
+  },
+  {
+    "title": "Writing Blog Post",
+    "item": "writing-blog-post",
+    "metaDescr": "Example of a Writing Blog Post workflow.",
+    "descr": "Write a post and have a quick access to the checklist, the post plan and the thesaurus."
+  },
+  {
+    "title": "Creating Invoices",
+    "item": "creating-invoices",
+    "metaDescr": "Example of a Creating Invoice workflow.",
+    "descr": "Quickly create a new invoice."
+  }
+]

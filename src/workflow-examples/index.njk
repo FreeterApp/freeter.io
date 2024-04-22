@@ -1,0 +1,29 @@
+---
+layout: v2_base.njk
+activeArea: workflow-examples
+pageTitle: Workflow Examples
+pageDescription: Get some ideas of how you can setup workflows in Freeter to improve your productivity.
+---
+<section class="workflow-examples-index">
+  <div class="container">
+    <h1>
+      Workflow Examples
+    </h1>
+    <p class="lead">
+      Get some inspiration on how you can setup workflows in Freeter to improve your productivity.
+    </p>
+
+    <ul class="workflow-examples--items">
+    {% for item in toc %}
+      <li>
+        <a href="{{ item.url|e }}">
+          <img src="{{ item.imgPreviewUrl|e }}" />
+          <span class="title">{{ item.title }}</span>
+          <span class="descr">{{ item.descr }}</span>
+        </a>
+      </li>
+    {% endfor %}
+    </ul>
+
+  </div>
+</section>

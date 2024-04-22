@@ -1,8 +1,8 @@
-const itemsTreeToBreadcrumbs = require('../../_utils/breadcrumbs').itemsTreeToBreadcrumbs;
-const calcUrlsInItemsTree = require('../../_utils/itemsTree').calcUrlsInItemsTree;
-const getItemByUrl = require('../../_utils/itemsTree').getItemByUrl;
+const itemsTreeToBreadcrumbs = require('../_utils/breadcrumbs').itemsTreeToBreadcrumbs;
+const calcUrlsInItemsTree = require('../_utils/itemsTree').calcUrlsInItemsTree;
+const getItemByUrl = require('../_utils/itemsTree').getItemByUrl;
 
-const pathRoot = '/v1/dashboard-examples';
+const pathRoot = '/workflow-examples';
 
 const toc = calcUrlsInItemsTree(require('./toc.json'), pathRoot);
 
@@ -12,7 +12,7 @@ const prepCurItem = curItem => (curItem ? {
 }: curItem)
 
 module.exports = {
-  layout: 'v1_dashboard-examples-page.njk',
+  layout: 'v2_workflow-examples-page.njk',
   eleventyComputed: {
     toc: data => data.toc ? data.toc : toc,
     breadcrumbs: data => itemsTreeToBreadcrumbs(toc, data.page.url),

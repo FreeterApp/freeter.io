@@ -1,9 +1,9 @@
-.dashboard-examples-index {
+.workflow-examples-index {
   background: $clr-white;
   padding-top: 20px;
   padding-bottom: 50px;
   overflow: hidden;
-  @media (min-width: $screen-sm-min) {
+  @include media-breakpoint-up(sm) {
     padding-top: 30px;
     padding-bottom: 70px;
   }
@@ -11,18 +11,19 @@
   h1 {
     text-align: center;
   }
-  h2 {
+  p.lead {
     text-align: center;
     margin-bottom: 50px;
   }
 }
 
-ul.dashboard-examples--items {
+ul.workflow-examples--items {
+  padding: 0;
   font-size:0;
   line-height: 0;
   li {
     margin-bottom: 56px;
-    @media (min-width: $screen-sm-min) {
+    @include media-breakpoint-up(sm) {
       vertical-align: top;
       display: inline-block;
       width: 50%;
@@ -75,16 +76,16 @@ ul.dashboard-examples--items {
 
 }
 
-.dashboard-examples-page {
+.workflow-examples-page {
   background: $clr-white;
   .container {
-    @media (min-width: $screen-sm-min) {
+    @include media-breakpoint-up(sm) {
       display: table;
     }
     > * {
       display: block;
       padding: 24px 0 36px;
-      @media (min-width: $screen-sm-min) {
+      @include media-breakpoint-up(sm) {
         padding: 48px 0 48px;
         display: table-cell;
         vertical-align: top;
@@ -94,7 +95,7 @@ ul.dashboard-examples--items {
       list-style: none;
       margin:0;
       width: 250px;
-      @media (max-width: $screen-xs-max) {
+      @include media-breakpoint-down(sm) {
         display: none;
       }
       .title, a {
@@ -140,7 +141,7 @@ ul.dashboard-examples--items {
     }
     .article-area {
       padding-left: 12px;
-      @media (min-width: $screen-sm-min) {
+      @include media-breakpoint-up(sm) {
         padding-left: 36px;
       }
     }
@@ -176,6 +177,7 @@ ul.dashboard-examples--items {
       }
     }
     article {
+      padding: 0;
       .screen {
         img {
           border-radius: 4px;

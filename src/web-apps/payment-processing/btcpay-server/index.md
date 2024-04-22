@@ -6,6 +6,15 @@
 4. Paste it to the URL field of Webpage widget on Freeter dashboard.
 5. Done!
 
+## Embedding BTCPay New Invoice
+
+1. Sign in to your <a href="{{ curItem.homeUrl|e }}" target="_blank">BTCPay Server</a> instance.
+2. Navigate to the invoices page of a store you want to embed.
+3. Click the create invoice button.
+4. Copy the URL from the browser’s address bar.
+5. Paste it to the URL field of Webpage widget on Freeter dashboard.
+6. Done!
+
 ## Embedding BTCPay Invoices
 
 1. Sign in to your <a href="{{ curItem.homeUrl|e }}" target="_blank">BTCPay Server</a> instance.

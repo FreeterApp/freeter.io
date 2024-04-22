@@ -1,14 +1,14 @@
 ---
-layout: v1_base.njk
-activeArea: dashboard-examples
+layout: v2_base.njk
+activeArea: workflow-examples
 ogType: object
 twitterCard: summary_large_image
 ---
-<section class="dashboard-examples-page">
+<section class="workflow-examples-page">
   <div class="container">
     <ul class="table-of-contents">
       <li>
-        <div class="title">Dashboard Examples</div>
+        <div class="title">Workflow Examples</div>
         <ul>
           {% for item in toc %}
             <li{% if item.url == page.url %} class="current"{% endif %}>
@@ -22,7 +22,7 @@ twitterCard: summary_large_image
     <div class="article-area">
       <ul class="breadcrumbs">
         <li>
-          <a href="/dashboard-examples">Dashboard Examples</a>
+          <a href="/workflow-examples">Workflow Examples</a>
         </li>
       {% for item in breadcrumbs %}
         {% if loop.last %}
