@@ -1,6 +1,6 @@
 # What is it for?
 
-Freeter is a productivity app that allows you to gather everything you need for work in one easy accessible place, and organize them by projects and workflows.
+Freeter is a productivity app that allows you to gather everything you need for work in one place, organized by projects and workflows, and have a quick access to them.
 
 Setting boundaries between your workflows will help you to stay focused on what matters at any given moment, without being distracted by irrelevant things.
 
