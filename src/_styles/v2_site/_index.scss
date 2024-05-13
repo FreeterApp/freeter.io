@@ -19,6 +19,9 @@ body#index {
     }
     h2 {
       margin-bottom: 50px;
+      a {
+        color: inherit;
+      }
       @include media-breakpoint-down(sm) {
         margin-bottom: 30px;
       }
@@ -119,12 +122,9 @@ body#index {
       font-size: 22px;
       font-weight: 300;
       a {
-        color: $clr-green;
+        color: $clr-white;
         text-decoration: none;
-        &:hover,
-        &:focus {
-          text-decoration: underline;
-        }
+        text-decoration: underline;
       }
       &:not(:last-child) {
         margin-bottom: 40px;
