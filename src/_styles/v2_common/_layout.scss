@@ -95,3 +95,54 @@ footer {
   }
 }
 
+#btn-sponsor {
+  position: relative;
+}
+
+.sponsor-tooltip {
+  position: absolute;
+  white-space: nowrap;
+  max-width: 400px;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 15px);
+  padding: 6px 12px;
+  border-radius: 12px;
+  background: $clr-grey-dark;
+  opacity: 1;
+  transition: opacity 0.4s ease-out;
+
+  &.is-loading {
+    opacity: 0;
+  }
+
+  &:after {
+    content: "";
+    position:absolute;
+    left:50%;
+    transform: translateX(-50%);
+    top:0;
+    margin-top: -20px;
+    border:10px solid $clr-grey-dark;
+    border-color: transparent transparent $clr-grey-dark transparent;
+  }
+
+  @include media-breakpoint-down(xl) {
+    & {
+      display:none
+    }
+  }
+  @include media-breakpoint-only(xl) {
+    & {
+      left:auto;
+      right: 0;
+      transform: translate(0, 15px);
+    }
+    &:after {
+      position:absolute;
+      left: auto;
+      right: 0;
+      transform: translateX(-35px);
+    }
+  }
+}
