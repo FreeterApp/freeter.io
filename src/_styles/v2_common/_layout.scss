@@ -127,12 +127,12 @@ footer {
     border-color: transparent transparent $clr-grey-dark transparent;
   }
 
-  @include media-breakpoint-down(xl) {
+  @include media-breakpoint-down(lg) {
     & {
       display:none
     }
   }
-  @include media-breakpoint-only(xl) {
+  @include media-breakpoint-between(lg,xl) {
     & {
       left:auto;
       right: 0;
