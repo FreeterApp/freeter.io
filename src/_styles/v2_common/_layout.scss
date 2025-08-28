@@ -23,7 +23,7 @@ header {
   }
 }
 
-article {
+main {
   background: $clr-white;
   padding: 4rem 0;
   @include media-breakpoint-up(lg) {

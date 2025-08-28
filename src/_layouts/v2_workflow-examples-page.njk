@@ -32,7 +32,7 @@ twitterCard: summary_large_image
         {% endif %}
       {% endfor %}
       </ul>
-      <article>
+      <main>
         <h1>{{ curItem.title }}</h1>
         <div class="screen">
           <a href="{{ curItem.imgScreenUrl }}" target="_blank">
@@ -41,7 +41,7 @@ twitterCard: summary_large_image
           <span>(Click the image to enlarge.)</span>
         </div>
         {{ content | safe}}
-      </article>
+      </main>
     </div>
   </div>
 </section>
