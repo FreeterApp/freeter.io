@@ -20,13 +20,14 @@ module.exports = eleventyConfig => {
   });
 
   const markdownIt = require('markdown-it');
+  const markdownItAnchor = require('markdown-it-anchor')
   const mdOptions = {
     html: true,
     breaks: true,
     linkify: true
   };
 
-  eleventyConfig.setLibrary('md', markdownIt(mdOptions));
+  eleventyConfig.setLibrary('md', markdownIt(mdOptions).use(markdownItAnchor));
 
   const hashCache = {};
   eleventyConfig.addFilter('bust', function (url) { // no arrow func here
@@ -38,6 +39,9 @@ module.exports = eleventyConfig => {
 
     return bustCacheForUrl(url, hashCache[filePath]);
   });
+
+  const pluginTOC = require('eleventy-plugin-toc')
+  eleventyConfig.addPlugin(pluginTOC)
 
   return {
     dir: {
