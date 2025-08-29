@@ -20,7 +20,8 @@
     "prep-deps": "yarn add -D sharp --ignore-engines"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4",
     "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.23.7",
     "autoprefixer": "^10.4.16",

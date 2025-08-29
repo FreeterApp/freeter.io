@@ -1,0 +1,23 @@
+---
+layout: v2_base.njk
+activeArea: blog
+ogType: object
+twitterCard: summary_large_image
+---
+<main>
+  <div class="container">
+    <article>
+      <h1 class="post-title">{{ title }}</h1>
+      <p class="blog-meta">{{page.date.toLocaleString( undefined, { year: 'numeric', month: 'long', day: 'numeric' })}}</p>
+      <img src="{{ page.url }}/index.png" alt="Post Thumbnail" class="post-cover" />
+
+      <aside>
+        {{ content | toc | safe }}
+      </aside>
+
+      <div class="post-content">
+        {{ content | safe }}
+      </div>
+    </article>
+  </div>
+</main>
