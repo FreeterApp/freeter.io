@@ -17,7 +17,7 @@ pageDescription: Get some ideas of how you can setup workflows in Freeter to imp
     {% for item in toc %}
       <li>
         <a href="{{ item.url|e }}">
-          <img src="{{ item.imgPreviewUrl|e }}" />
+          <img src="{{ item.imgScreenUrl|e }}" eleventy:widths="450" alt="{{ item.title|e }}" />
           <span class="title">{{ item.title }}</span>
           <span class="descr">{{ item.descr }}</span>
         </a>

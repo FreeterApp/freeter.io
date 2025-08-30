@@ -24,7 +24,7 @@ pageDescription: Learn how to make web apps more accessible by embedding them in
           {% for item in category.items %}
           <li>
             <a href="{{ item.url|e }}">
-              <img src="{{ item.urlBase|e }}/{{ item.logo|e }}" />
+              <img src="{{ item.urlBase|e }}/{{ item.logo|e }}" alt="{{ item.title|e }}" />
               <span>{{ item.title }}</span>
             </a>
           </li>
