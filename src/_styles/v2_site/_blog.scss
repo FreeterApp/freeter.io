@@ -46,9 +46,45 @@ body#blog {
   }
 }
 
-body#blog-post {
-  article { margin-top: 2rem; margin-bottom: 3rem; }
-  .post-title { font-size: 2rem; margin-bottom: 0.5rem; }
-  .post-cover { width: 100%; margin: 1.5rem 0; border-radius: 8px; }
-  .post-content h2 { margin-top: 1.5rem; font-size: 1.3rem; }
+article#blog-post {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+
+  .post-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .post-cover {
+    width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+    border-radius: 4px;
+  }
+  .post-toc {
+    border: 1px solid $clr-grey-dark;
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 3rem auto;
+    max-width: 400px;
+    .post-toc-title {
+      text-align: center;
+      font-weight: bold;
+      margin:0;
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+    }
+    li {
+      margin: 0.2rem 1rem;
+    }
+    a:not(:hover) {
+      text-decoration: none;
+    }
+  }
+  .post-content h2 {
+    margin-top: 1.5rem;
+    font-size: 1.3rem;
+  }
 }

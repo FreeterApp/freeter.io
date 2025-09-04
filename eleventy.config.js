@@ -41,7 +41,9 @@ module.exports = eleventyConfig => {
   });
 
   const pluginTOC = require('eleventy-plugin-toc')
-  eleventyConfig.addPlugin(pluginTOC)
+  eleventyConfig.addPlugin(pluginTOC, {
+    ul: true
+  })
 
   const { eleventyImageTransformPlugin } = require("@11ty/eleventy-img");
   eleventyConfig.addPlugin(eleventyImageTransformPlugin);

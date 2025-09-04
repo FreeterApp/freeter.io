@@ -6,12 +6,17 @@ twitterCard: summary_large_image
 ---
 <main>
   <div class="container">
-    <article>
+    <article id="blog-post">
       <h1 class="post-title">{{ title }}</h1>
       <p class="blog-meta">{{page.date.toLocaleString( undefined, { year: 'numeric', month: 'long', day: 'numeric' })}}</p>
       <img src="{{ page.url }}/index.png" alt="Post Thumbnail" class="post-cover" />
 
-      <aside>
+      <div class="post-summary">
+        {{ summary | striptags(true) | escape | nl2br }}
+      </div>
+
+      <aside class="post-toc">
+        <p class="post-toc-title">In this article</p>
         {{ content | toc | safe }}
       </aside>
 
