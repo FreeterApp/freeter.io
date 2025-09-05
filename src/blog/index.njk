@@ -14,7 +14,7 @@ eleventyImport:
       {%- for post in collections.post | reverse -%}
         <article class="blog-card">
           <a href="{{ post.url }}" class="blog-thumb">
-            <img src="{{ post.url }}/index.png" alt="Post Thumbnail" eleventy:widths="450" />
+            <img src="{{ post.url }}index.png" alt="Post Thumbnail" eleventy:widths="450" />
           </a>
           <div class="blog-content">
             <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
