@@ -40,6 +40,21 @@ module.exports = eleventyConfig => {
     return bustCacheForUrl(url, hashCache[filePath]);
   });
 
+  eleventyConfig.addFilter('mdFilter', function (content) {
+    const md = new markdownIt({
+      html: true
+    });
+
+    return md.render(content);
+  });
+
+  eleventyConfig.addFilter('excerpt', function (content, words) {
+    const arr = content.split(' ');
+    const newArr = arr.slice(0, words);
+    return newArr.join(' ') + (newArr.length<arr.length ? '...' : '')
+
+  });
+
   const pluginTOC = require('eleventy-plugin-toc')
   eleventyConfig.addPlugin(pluginTOC, {
     ul: true

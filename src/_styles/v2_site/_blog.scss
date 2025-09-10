@@ -51,8 +51,11 @@ article#blog-post {
   margin-bottom: 3rem;
 
   .post-title {
-    font-size: 2rem;
+    font-size: 2.5rem;
     margin-bottom: 2rem;
+  }
+  .post-intro {
+    font-size: 1.4rem;
   }
   .post-cover {
     width: 100%;
@@ -83,9 +86,18 @@ article#blog-post {
       text-decoration: none;
     }
   }
-  .post-content h2 {
-    margin-top: 1.5rem;
+  .post-content {
     font-size: 1.3rem;
+    h2 {
+      margin-top: 2.5rem;
+      font-size: 2.2rem;
+    }
+    h3 {
+      font-size: 1.9rem;
+    }
+    h4 {
+      font-size: 1.6rem;
+    }
   }
 }
 

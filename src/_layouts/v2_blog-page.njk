@@ -7,7 +7,7 @@ twitterCard: summary_large_image
 <main>
   <div class="container">
     <article id="blog-post">
-      <h1 class="post-title">{{ title }}</h1>
+      <h1 class="post-title">{{ h1 }}</h1>
       <div class="d-flex flex-column flex-md-row align-items-center justify-content-between">
         <p class="blog-meta"><i>{{page.date.toLocaleString( undefined, { year: 'numeric', month: 'long', day: 'numeric' })}}</i></p>
         <div class="blog-share">
@@ -38,7 +38,7 @@ twitterCard: summary_large_image
       <img src="{{ page.url }}index.png" alt="Post Thumbnail" class="post-cover" />
 
       <div class="post-intro">
-        {{ intro | striptags(true) | escape | nl2br }}
+        {{ intro | mdFilter | safe }}
       </div>
 
       <aside class="post-toc">
