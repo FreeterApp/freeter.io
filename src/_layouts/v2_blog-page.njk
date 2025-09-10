@@ -37,8 +37,8 @@ twitterCard: summary_large_image
       </div>
       <img src="{{ page.url }}index.png" alt="Post Thumbnail" class="post-cover" />
 
-      <div class="post-summary">
-        {{ summary | striptags(true) | escape | nl2br }}
+      <div class="post-intro">
+        {{ intro | striptags(true) | escape | nl2br }}
       </div>
 
       <aside class="post-toc">

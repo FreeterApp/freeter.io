@@ -1,8 +1,9 @@
 ---
 tags: post
-title: How to Organize Your Workspace
 date: 2025-08-20
-summary: |
+title: How to Organize Your Workspace
+description: Post Description Goes Here
+intro: |-
   Learn simple tricks to keep your digital and physical workspace clean and productive.
 
   Or don't learn simple tricks to keep your digital and physical workspace clean and productive.
