@@ -24,7 +24,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 
-    <title>{{ pageTitle }} - Freeter</title>
+    <title>{{ pageTitle }} — Freeter</title>
     <meta name="description" content="{{ pageDescription }}">
 
     {% if robotsNoIndex %}
@@ -38,6 +38,14 @@
     <meta property="og:title" content="{{ pageTitle }}" />
     <meta property="og:url" content="https://freeter.io{{ ogUrlPath | default(page.url) }}" />
     <meta property="og:description" content="{{ pageDescription }}" />
+    {% if ogType=="article" %}
+		{% if date %}
+    <meta property="article:published_time" content="{{ date.toISOString() }}" />
+    {% endif %}
+		{% if modif_date %}
+    <meta property="article:modified_time" content="{{ modif_date.toISOString() }}" />
+    {% endif %}
+    {% endif %}
 
     <!-- Twitter -->
     <meta name="twitter:image" content="https://freeter.io{{ pageImage }}" />
