@@ -6,7 +6,7 @@ title: 'Boost Your Productivity: Manage Multiple Projects with Freeter'
 description: Struggling to manage multiple projects? Learn how to boost your productivity with Freeter — a free, open-source productivity app for developers & creators.
 h1: How to Boost Your Productivity While Managing Multiple Projects
 intro: |-
-  If you’re a **freelancer**, a **web developer**, an **open-source maintainer**, or just someone working on **multiple projects**, you know how challenging it can be to stay productive. Your brain wants to focus, but your tools keep dragging you everywhere.
+  If you’re a **freelancer**, a **web developer**, an **open-source maintainer**, or someone working on **multiple projects**, you know how challenging it can be to stay productive. Your brain wants to focus, but your tools keep dragging you everywhere.
 
   You jump between code editors, mockup files, project dashboards, task managers, terminals, docs, emails, Twitter DMs… and after a while, it feels like **you’re working more on switching tasks than on actually doing them**.
 
@@ -15,13 +15,13 @@ intro: |-
 
 ## The Problem: Too Many Tools, Too Many Tabs
 
-Working on several projects means constantly switching contexts:
+Working on multiple projects often means endless **context switching**:
 
-- Opening your code editor and locating the right project files.
-- Jumping into your task manager to track progress.
-- Searching for icons, design assets, and documentation.
-- Checking Gmail and Twitter DMs across multiple accounts.
-- Running terminal commands for builds and deployments.
+- Opening your code editor and digging for the right project files.
+- Jumping into a client’s task manager to check tasks and deadlines.
+- Searching across different websites for icons, design assets, or documentation.
+- Logging into Gmail and Twitter DMs across several accounts.
+- Running project-specific terminal commands for builds and deployments.
 
 When everything is scattered, **productivity drops**. You waste time switching between tools instead of focusing on your actual work.
 
