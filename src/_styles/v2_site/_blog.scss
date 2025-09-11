@@ -55,7 +55,7 @@ article#blog-post {
     margin-bottom: 2rem;
   }
   .post-intro {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .post-cover {
     width: 100%;
@@ -64,11 +64,12 @@ article#blog-post {
     border-radius: 4px;
   }
   .post-toc {
-    border: 1px solid $clr-grey-dark;
+    // border: 1px solid $clr-grey-dark;
+    background-color: $clr-almost-white;
     border-radius: 8px;
     padding: 1rem;
     margin: 3rem auto;
-    max-width: 400px;
+    max-width: 480px;
     .post-toc-title {
       text-align: center;
       font-weight: bold;
@@ -82,12 +83,15 @@ article#blog-post {
     li {
       margin: 0.2rem 1rem;
     }
-    a:not(:hover) {
-      text-decoration: none;
+    a {
+      color: $clr-grey-dark;
+      &:not(:hover) {
+        text-decoration: none;
+      }
     }
   }
   .post-content {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     h2 {
       margin-top: 2.5rem;
       font-size: 2.2rem;
