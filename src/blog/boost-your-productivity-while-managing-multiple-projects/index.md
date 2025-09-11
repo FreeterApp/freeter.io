@@ -46,6 +46,8 @@ Imagine this: you open one workflow screen, and **everything you need** to start
 - A notes widget for quick ideas.
 - One-click links to your repo, bug reports, and feature requests.
 
+![App / Website Development Workflow](app-development.png "App / Website Development Workflow")
+
 You don’t waste time jumping around. You just **switch into “dev mode”** instantly.
 
 ## Workflow #2: Email & Twitter DMs
@@ -57,17 +59,21 @@ With Freeter, you can:
 - Embed Gmail and Twitter DMs directly into one workflow.
 - Use **project-specific sessions**, so each workflow stays logged into the right account automatically.
 
+![Messages Workflow](messages.png "Messages Workflow")
+
 No more hassle of switching accounts or browsers — just open your Messages workflow, and you’re ready to reply.
 
 ## Workflow #3: New App Release
 
-Releasing a new version used to require juggling multiple tools. Now, you can handle it in one place:
+Releasing a new version used to mean juggling multiple tools. Now, you can handle it in one place:
 
-- **Release Command** → Execute build scripts directly from Freeter.
-- **Releases Page** → Opens a quick link to the releases page.
-- **Planned Features** → Update the Freeter community page without leaving the app.
-- **Finished Tasks** → Track completed work in the same workflow.
-- **Release Notes** → Keep a checklist to avoid missing steps.
+- **Release** → Execute build scripts directly from Freeter.
+- **Open Releases** → Jump straight to the releases page in your browser.
+- **Planned Features** → Update the Freeter community post with ease.
+- **Tasks** → Review completed work without leaving your workflow.
+- **Release Steps** → Follow a checklist so nothing gets overlooked.
+
+![New App Release Workflow](new-release.png "New App Release Workflow")
 
 Five widgets. One screen. Zero stress.
 
@@ -79,6 +85,6 @@ No clutter. No friction. No wasted energy.
 
 If you’ve been looking for a way to **organize your chaos and actually get more done**, Freeter can help you do exactly that.
 
-It’s **free and open source**.
+It’s completely **free and open source**.
 
 [Download Freeter](/download) and start organizing your workflows today.
