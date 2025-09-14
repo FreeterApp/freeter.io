@@ -8,7 +8,7 @@
 }
 ---
 {% set dlUrl = ["https://freeter.io/download/r/", v2_app.recentVerTag, "/Freeter-", v2_app.recentVer, "-", dlFilename] | join %}
-<article>
+<main>
   <section class="container dl-note">
     <h1>
       Thanks for downloading Freeter!
@@ -48,7 +48,7 @@
       <li>Valor</li>
     </ul>
   </section>
-</article>
+</main>
 <script>
   window.onload=function() {
     window.location='{{dlUrl}}';

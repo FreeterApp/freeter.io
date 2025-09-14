@@ -20,7 +20,8 @@
     "prep-deps": "yarn add -D sharp --ignore-engines"
   },
   "devDependencies": {
-    "@11ty/eleventy": "^2.0.1",
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^6.0.4",
     "@babel/core": "^7.23.7",
     "@babel/preset-env": "^7.23.7",
     "autoprefixer": "^10.4.16",
@@ -30,13 +31,14 @@
     "copyfiles": "^2.4.1",
     "cross-env": "^7.0.3",
     "cssnano": "^6.0.3",
+    "eleventy-plugin-toc": "^1.1.5",
     "markdown-it": "^14.0.0",
+    "markdown-it-anchor": "^9.2.0",
     "nodemon": "^3.0.2",
     "postcss": "^8.4.33",
     "postcss-cli": "^11.0.0",
     "rimraf": "^5.0.5",
     "sass": "^1.69.7",
-    "sharp": "^0.33.2",
     "webpack": "^5.89.0",
     "webpack-cli": "^5.1.4"
   },

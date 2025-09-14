@@ -60,9 +60,9 @@
         </div>
         <nav class="links">
           <ul>
-            {% for href, id, caption, hiddenXs, newTab in navigationBar %}
+            {% for href, id, caption, hiddenXs, newTab, external in navigationBar %}
               <li class="{{ id }}{% if hiddenXs %} xs-hidden{% endif %}">
-                <a href="{{ href|e }}"{% if id == activeArea %} class="current"{% endif %}{% if newTab %} target="_blank"{% endif %}>{{ caption|e }}</a>
+                <a href="{{ href|e }}"{% if id == activeArea %} class="current"{% endif %}{% if external%} rel="noopener noreferrer"{% endif %}{% if newTab %} target="_blank"{% endif %}>{{ caption|e }}</a>
               </li>
             {% endfor %}
           </ul>
@@ -93,7 +93,7 @@
     <footer>
       <div class="container">
         <nav class="social">
-          <a href="https://twitter.com/FreeterApp" target="_blank">
+          <a href="https://twitter.com/FreeterApp" rel="noopener noreferrer" target="_blank">
             <svg class="logo-twitter" viewBox="0 0 30 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve">
               <path d="M 30.0364 2.6741 C 28.9299 3.1648 27.7409 3.4963 26.4928 3.6455 C 27.7667 2.8818 28.7451 1.6729 29.2056 0.2322 C 28.0136 0.9392 26.6931 1.4526 25.2877 1.7292 C 24.1623 0.5303 22.5588 -0.219 20.7842 -0.219 C 17.3768 -0.219 14.6143 2.5432 14.6143 5.9504 C 14.6143 6.4341 14.6689 6.9048 14.774 7.3567 C 9.6464 7.0994 5.1002 4.6431 2.0571 0.9102 C 1.526 1.8215 1.2218 2.8813 1.2218 4.012 C 1.2218 6.1523 2.311 8.0408 3.9666 9.1472 C 2.9552 9.1155 2.0038 8.8379 1.172 8.3757 C 1.1715 8.4016 1.1714 8.4272 1.1714 8.4534 C 1.1714 11.4426 3.2982 13.9365 6.1207 14.5032 C 5.6028 14.644 5.0579 14.7195 4.4951 14.7195 C 4.0976 14.7195 3.7111 14.6809 3.3344 14.6089 C 4.1195 17.0601 6.3981 18.8438 9.0978 18.8938 C 6.9863 20.5486 4.3259 21.5347 1.4354 21.5347 C 0.9373 21.5347 0.4462 21.5056 -0.0364 21.4487 C 2.694 23.1992 5.9371 24.2205 9.4213 24.2205 C 20.7699 24.2205 26.9756 14.8193 26.9756 6.6658 C 26.9756 6.3984 26.9696 6.1326 26.9578 5.8677 C 28.1632 4.9978 29.2092 3.9114 30.0364 2.6741 Z"/>
             </svg>

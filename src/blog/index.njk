@@ -1,0 +1,30 @@
+---
+layout: v2_base.njk
+activeArea: blog
+pageTitle: Blog
+eleventyImport:
+  collections: ["post"]
+---
+<main>
+  <div class="container">
+    <h1>
+      Freeter Blog
+    </h1>
+    <section class="blog-list">
+      {%- for post in collections.post | reverse -%}
+        <article class="blog-card">
+          <a href="{{ post.url }}" class="blog-thumb">
+            <img src="{{ post.url }}index.jpg" alt="{{ post.data.h1 }}" eleventy:widths="450" />
+          </a>
+          <div class="blog-content">
+            <h2><a href="{{ post.url }}">{{ post.data.h1 }}</a></h2>
+            <p class="blog-meta">{{ post.data.date.toLocaleString( undefined, { year: 'numeric', month: 'long', day: 'numeric' }) }}</p>
+            <p class="blog-excerpt">{{ post.data.intro | mdFilter | striptags(true) | excerpt(25) }}</p>
+            <a href="{{ post.url }}" class="blog-more">Read More →</a>
+          </div>
+        </article>
+      {%- endfor -%}
+    </section>
+  </div>
+</main>
+

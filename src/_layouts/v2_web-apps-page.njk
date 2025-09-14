@@ -18,7 +18,7 @@ twitterCard: summary
       {% endif %}
     {% endfor %}
     </ul>
-    <article>
+    <main>
       <div class="col-logo">
         <img src="{{ curItem.logoUrl|e }}" alt="{{ curItem.title }} Logo" />
       </div>
@@ -27,6 +27,6 @@ twitterCard: summary
         <div class="descr">{{ curItem.descr }}</div>
         {{ content | safe}}
       </div>
-    </article>
+    </main>
   </div>
 </section>
