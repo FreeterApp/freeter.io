@@ -1,7 +1,7 @@
 ---
 tags: post
-date: 2025-09-12
-modif_date: 2025-09-12
+date: 2025-09-14
+modif_date: 2025-09-14
 title: 'Freeter: The Best Free App for Multiple Email Accounts'
 description: Looking for the best way to manage multiple email accounts? Discover Freeter — a free app that lets you organize all your inboxes in one place.
 h1: Manage All Your Email Accounts in One App — Free & Hassle-Free
