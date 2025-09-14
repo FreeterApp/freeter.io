@@ -1,11 +1,11 @@
----json
-{
-  "layout": "v2_base.njk",
-  "pageTitle": "Thank you for downloading Freeter",
-  "activeArea": "download-os",
-  "robotsNoIndex": true,
-  "dlFilename": "linux-x64.tar.xz"
-}
+---
+layout: v2_base.njk
+pageTitle: Thank you for downloading Freeter
+activeArea: download-os
+robotsNoIndex: true
+date: 2024-01-01
+modifDate: 2025-06-24
+dlFilename: linux-x64.tar.xz
 ---
 {% set dlUrl = ["https://freeter.io/download/r/", v2_app.recentVerTag, "/Freeter-", v2_app.recentVer, "-", dlFilename] | join %}
 <main>

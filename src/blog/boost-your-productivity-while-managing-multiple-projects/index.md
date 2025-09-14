@@ -1,7 +1,7 @@
 ---
 tags: post
 date: 2025-09-03
-modif_date: 2025-09-03
+modifDate: 2025-09-03
 title: 'Boost Your Productivity: Manage Multiple Projects with Freeter'
 description: Struggling to manage multiple projects? Learn how to boost your productivity with Freeter — a free, open-source productivity app for developers & creators.
 h1: How to Boost Your Productivity While Managing Multiple Projects

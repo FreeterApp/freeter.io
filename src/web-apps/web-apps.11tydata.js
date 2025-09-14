@@ -15,6 +15,8 @@ const prepCurItem = curItem => (curItem ? {
 
 module.exports = {
   layout: 'v2_web-apps-page.njk',
+  date: new Date('2024-01-01'),
+  modifDate: new Date('2025-06-24'),
   eleventyComputed: {
     breadcrumbs: data => itemsTreeToBreadcrumbs(apps, data.page.url),
     curItem: data => prepCurItem(getItemByUrl(apps, data.page.url)),

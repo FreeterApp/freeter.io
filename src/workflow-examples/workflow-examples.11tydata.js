@@ -13,6 +13,8 @@ const prepCurItem = curItem => (curItem ? {
 
 module.exports = {
   layout: 'v2_workflow-examples-page.njk',
+  date: new Date('2024-01-01'),
+  modifDate: new Date('2025-06-24'),
   eleventyComputed: {
     toc: data => data.toc ? data.toc : toc,
     breadcrumbs: data => itemsTreeToBreadcrumbs(toc, data.page.url),

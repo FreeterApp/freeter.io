@@ -9,6 +9,8 @@ const toc = calcUrlsInItemsTree(require('./toc.json'), pathRoot);
 module.exports = {
   layout: 'v1_guide-page.njk',
   toc,
+  date: new Date('2024-01-01'),
+  modifDate: new Date('2024-01-01'),
   eleventyComputed: {
     curItem: data => getItemByUrl(toc, data.page.url),
     breadcrumbs: data => itemsTreeToBreadcrumbs(toc, data.page.url),
